@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    <import resource="classpath:ds.xml"/>
+    <!--<bean id="appReadOnlyDao" class="com.enjoygame.egapp.frame.web.storage.ReadOnlyDao" abstract="true">-->
+        <!--<property name="readOnlyJdbcTemplate" ref="appJdbcTemplate"/>-->
+    <!--</bean>-->
+
+    <bean id="appCommonDao" class="com.enjoygame.egapp.frame.web.storage.CommonDao" abstract="true">
+        <property name="jdbcTemplate" ref="appJdbcTemplate"/>
+        <property name="readOnlyJdbcTemplate" ref="appReadOnlyJdbcTemplate"/>
+    </bean>
+
+    <bean id="pushTokenDao" parent="appCommonDao" class="com.enjoygame.egapp.base.dao.impl.PushTokenDaoImpl"/>
+    <bean id="pushTaskDao" parent="appCommonDao" class="com.enjoygame.egapp.base.dao.impl.PushTaskDaoImpl"/>
+
+</beans>

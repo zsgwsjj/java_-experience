@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.comm.service.impl;
 
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
+import com.zsgwsjj.jiang.util.Md5Utils;
 import com.zsgwsjj.jiang.util.TimeUtils;
 
 
@@ -25,6 +26,6 @@ public class UserAccService implements IUserAccService {
 
     private String geneToken(String userName) {
         long curUTS = TimeUtils.getCurrentUnixTimestamp();
-        return userName + curUTS;
+        return Md5Utils.MD5(userName + curUTS);
     }
 }

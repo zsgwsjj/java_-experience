@@ -12,6 +12,7 @@
         <module>user</module>
         <module>comm</module>
         <module>util</module>
+        <module>frame</module>
     </modules>
 
     <properties>
