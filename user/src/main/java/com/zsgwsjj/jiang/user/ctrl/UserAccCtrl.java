@@ -1,6 +1,6 @@
 package com.zsgwsjj.jiang.user.ctrl;
 
-import com.zsgwsjj.jiang.comm.IUserAccService;
+import com.zsgwsjj.jiang.comm.service.IUserAccService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

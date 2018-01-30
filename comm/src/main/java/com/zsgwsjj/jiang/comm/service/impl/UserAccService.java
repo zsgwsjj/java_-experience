@@ -1,6 +1,6 @@
-package com.zsgwsjj.jiang.comm.impl;
+package com.zsgwsjj.jiang.comm.service.impl;
 
-import com.zsgwsjj.jiang.comm.IUserAccService;
+import com.zsgwsjj.jiang.comm.service.IUserAccService;
 import com.zsgwsjj.jiang.util.Md5Utils;
 import com.zsgwsjj.jiang.util.TimeUtils;
 

@@ -10,9 +10,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>jiang</groupId>
     <artifactId>user</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <build>
         <finalName>user</finalName>
@@ -20,7 +20,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>jiang</groupId>
+            <groupId>com.zsgwsjj.jiang</groupId>
             <artifactId>util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

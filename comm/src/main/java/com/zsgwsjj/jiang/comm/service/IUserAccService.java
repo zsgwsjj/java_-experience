@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.comm;
+package com.zsgwsjj.jiang.comm.service;
 
 /**
  * @author : jiang
