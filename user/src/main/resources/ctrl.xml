@@ -4,6 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
     <import resource="classpath:service.xml"/>
-    <bean id="sdkUploadCtrl" class="com.enjoygame.egapp.web.push.SdkUploadCtrl"/>
-    <bean id="initiatePushCtrl" class="com.enjoygame.egapp.web.push.InitiatePushCtrl"/>
+    <bean id="UserAccCtrl" class="com.zsgwsjj.jiang.user.ctrl.UserAccCtrl"/>
 </beans>

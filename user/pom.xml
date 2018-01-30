@@ -14,17 +14,21 @@
     <artifactId>user</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <finalName>user</finalName>
+    </build>
+
     <dependencies>
-        <dependency>
-            <groupId>jiang</groupId>
-            <artifactId>comm</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>jiang</groupId>
             <artifactId>util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.zsgwsjj.jiang</groupId>
+            <artifactId>comm</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
-    
+
 </project>
