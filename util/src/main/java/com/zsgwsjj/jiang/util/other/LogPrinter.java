@@ -1,6 +1,7 @@
-package com.zsgwsjj.jiang.util;
+package com.zsgwsjj.jiang.util.other;
 
 
+import com.zsgwsjj.jiang.util.util.LogUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

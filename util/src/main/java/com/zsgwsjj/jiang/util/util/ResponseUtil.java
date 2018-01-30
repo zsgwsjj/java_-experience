@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.util;
+package com.zsgwsjj.jiang.util.util;
 
 import com.alibaba.fastjson.JSON;
 

@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.util;
+package com.zsgwsjj.jiang.util.other;
 
 import org.apache.log4j.PatternLayout;
 import org.apache.log4j.helpers.PatternParser;

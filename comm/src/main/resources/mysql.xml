@@ -28,7 +28,7 @@
         <property name="testOnReturn" value="false"/>
     </bean>
 
-    <bean id="jjJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="jjDataSource"/>
     </bean>
     <!--注解添加事务-->

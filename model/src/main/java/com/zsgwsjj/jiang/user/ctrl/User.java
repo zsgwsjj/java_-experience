@@ -12,6 +12,14 @@ public class User {
     private long createTime;
     private long updateTime;
 
+    public User(int id, String userName, String password, long createTime, long updateTime) {
+        this.id = id;
+        this.userName = userName;
+        this.password = password;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+    }
+
     public int getId() {
         return id;
     }
