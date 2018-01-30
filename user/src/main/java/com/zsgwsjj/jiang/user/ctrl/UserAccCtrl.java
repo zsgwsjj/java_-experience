@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
  * @time : 2018/1/12 22:01
  */
 @RestController
-@RequestMapping("/user")
 public class UserAccCtrl {
 
     private IUserAccService userAccService;
@@ -31,3 +30,4 @@ public class UserAccCtrl {
         return userAccService.loginWithUserName(userName, password);
     }
 }
+
