@@ -27,7 +27,10 @@ public class UserAccCtrl {
     public String register(@RequestParam("username") String userName,
                            @RequestParam("password") String password,
                            HttpServletRequest request) {
+//        ResponseUtil.geneCommonResponse("token",)
         return userAccService.loginWithUserName(userName, password);
     }
+
+
 }
 

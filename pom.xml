@@ -21,6 +21,7 @@
         <druid-version>1.0.29</druid-version>
         <org.log4j.version>1.2.14</org.log4j.version>
         <version.jackson>2.7.3</version.jackson>
+        <fastjson-version>1.2.31</fastjson-version>
     </properties>
 
     <dependencies>
@@ -132,6 +133,12 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>${version.jackson}</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson-version}</version>
             <!--<scope>provided</scope>-->
         </dependency>
     </dependencies>
