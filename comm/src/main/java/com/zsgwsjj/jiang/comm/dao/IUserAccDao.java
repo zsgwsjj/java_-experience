@@ -1,6 +1,6 @@
 package com.zsgwsjj.jiang.comm.dao;
 
-import com.zsgwsjj.jiang.user.ctrl.User;
+import com.zsgwsjj.jiang.model.User;
 
 import java.util.Optional;
 

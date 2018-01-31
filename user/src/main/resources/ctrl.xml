@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
     <import resource="classpath:service.xml"/>
-    <bean id="userAccCtrl" class="com.zsgwsjj.jiang.user.ctrl.UserAccCtrl"/>
+    <bean id="userAccCtrl" class="com.zsgwsjj.jiang.model.UserAccCtrl"/>
 </beans>

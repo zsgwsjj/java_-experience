@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.user.ctrl;
+package com.zsgwsjj.jiang.model;
 
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;
@@ -29,13 +29,7 @@ public class UserAccCtrl {
     public String register(@RequestParam("username") String userName,
                            @RequestParam("password") String password,
                            HttpServletRequest request) {
-        String token;
-//        try {
-            token = userAccService.loginWithUserName(userName, password);
-//        } catch (YaoException e) {
-//            return ResponseUtil.geneCommonResponse(e);
-//        }
-        return ResponseUtil.geneCommonResponse("token", token);
+        return ResponseUtil.geneCommonResponse("token", userAccService.loginWithUserName(userName, password));
     }
 
     @RequestMapping(value = "/time", method = RequestMethod.GET)

@@ -1,7 +1,7 @@
 package com.zsgwsjj.jiang.comm.dao.impl;
 
 import com.zsgwsjj.jiang.comm.dao.IUserAccDao;
-import com.zsgwsjj.jiang.user.ctrl.User;
+import com.zsgwsjj.jiang.model.User;
 import com.zsgwsjj.jiang.util.util.SqlUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

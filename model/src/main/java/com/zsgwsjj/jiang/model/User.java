@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.user.ctrl;
+package com.zsgwsjj.jiang.model;
 
 /**
  * @author : jiang

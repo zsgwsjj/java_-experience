@@ -1,6 +1,6 @@
 package com.zsgwsjj.jiang.user.test;
 
-import com.zsgwsjj.jiang.user.ctrl.UserAccCtrl;
+import com.zsgwsjj.jiang.model.UserAccCtrl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
