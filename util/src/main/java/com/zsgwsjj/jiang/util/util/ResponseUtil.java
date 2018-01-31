@@ -15,4 +15,8 @@ public class ResponseUtil {
         response.put("desc", result);
         return JSON.toJSONString(response);
     }
+
+    public static String geneCommonResponse(Object result) {
+        return JSON.toJSONString(result);
+    }
 }

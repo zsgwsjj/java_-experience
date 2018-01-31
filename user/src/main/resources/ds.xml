@@ -3,8 +3,6 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
-    <import resource="classpath:dao.xml"/>
-
-    <bean id="pushService" class="com.zsgwsjj.jiang.comm.service.impl.UserAccService"/>
+    <import resource="classpath*:mysql.xml"/>
 
 </beans>

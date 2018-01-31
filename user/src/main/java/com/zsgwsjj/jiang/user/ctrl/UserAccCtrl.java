@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.user.ctrl;
 
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
+import com.zsgwsjj.jiang.util.other.YaoException;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;
 import com.zsgwsjj.jiang.util.util.TimeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +30,13 @@ public class UserAccCtrl {
     public String register(@RequestParam("username") String userName,
                            @RequestParam("password") String password,
                            HttpServletRequest request) {
-        return ResponseUtil.geneCommonResponse("token", userAccService.loginWithUserName(userName, password));
+        String token;
+        try {
+            token = userAccService.loginWithUserName(userName, password);
+        } catch (YaoException e) {
+            return ResponseUtil.geneCommonResponse(e);
+        }
+        return ResponseUtil.geneCommonResponse("token", token);
     }
 
     @RequestMapping(value = "/time", method = RequestMethod.GET)

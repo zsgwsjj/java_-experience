@@ -2,6 +2,7 @@ package com.zsgwsjj.jiang.comm.dao.impl;
 
 import com.zsgwsjj.jiang.comm.dao.IUserAccDao;
 import com.zsgwsjj.jiang.user.ctrl.User;
+import com.zsgwsjj.jiang.util.util.SqlUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -29,10 +30,10 @@ public class UserAccDao implements IUserAccDao {
 
     @Override
     public Optional<User> getUserByName(String userName) {
-        return Optional.of(jdbcTemplate.queryForObject(GET_BY_NAME, new UserRowmapper(), userName));
+        return SqlUtils.getObjectOp(jdbcTemplate, GET_BY_NAME, new UserRowMapper(), userName);
     }
 
-    private class UserRowmapper implements RowMapper<User> {
+    private class UserRowMapper implements RowMapper<User> {
 
         @Override
         public User mapRow(ResultSet resultSet, int i) throws SQLException {

@@ -29,7 +29,7 @@ public class UserAccService implements IUserAccService {
     }
 
     @Override
-    public String loginWithUserName(String userName, String password) {
+    public String loginWithUserName(String userName, String password)  {
         Optional<User> userOp = userAccDao.getUserByName(userName);
         User user = userOp.orElseThrow(() -> new YaoException(EnumUserError.NO_USER));
         if (!user.getPassword().equals(password)) {

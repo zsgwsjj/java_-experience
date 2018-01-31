@@ -8,18 +8,22 @@ import com.zsgwsjj.jiang.util.enums.IYaoError;
  */
 public class YaoException extends RuntimeException {
 
-    private String errorCode;
+    private IYaoError errorCode;
     private String extraMessage;
+
+    public YaoException(String message) {
+        super(message);
+    }
 
     public YaoException(IYaoError error) {
         super("error code: " + error.getErrorCode() + ",error desc: " + error.getErrorMessage());
     }
 
-    public String getErrorCode() {
+    public IYaoError getErrorCode() {
         return errorCode;
     }
 
-    public YaoException setErrorCode(String errorCode) {
+    public YaoException setErrorCode(IYaoError errorCode) {
         this.errorCode = errorCode;
         return this;
     }

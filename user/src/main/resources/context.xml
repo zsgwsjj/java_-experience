@@ -11,6 +11,7 @@
     <import resource="classpath*:mvc.xml"/>
 
     <aop:aspectj-autoproxy/>
-    <bean id="logPrinter" class="com.zsgwsjj.jiang.util.LogPrinter"/>
+    <bean id="logPrinter" class="com.zsgwsjj.jiang.util.other.LogPrinter"/>
+    <bean id="exHandler" class="com.zsgwsjj.jiang.util.other.ExHandler"/>
 
 </beans>
