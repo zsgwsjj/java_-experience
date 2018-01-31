@@ -18,9 +18,6 @@ import java.util.Optional;
  */
 public class UserAccService implements IUserAccService {
 
-    private static final String JIANG = "jiang";
-    private static final String YAO = "yao";
-
     private IUserAccDao userAccDao;
 
     @Autowired

@@ -17,6 +17,7 @@ public class YaoException extends RuntimeException {
 
     public YaoException(IYaoError error) {
         super("error code: " + error.getErrorCode() + ",error desc: " + error.getErrorMessage());
+        this.errorCode = error;
     }
 
     public IYaoError getErrorCode() {

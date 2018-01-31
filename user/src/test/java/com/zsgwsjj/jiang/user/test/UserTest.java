@@ -15,6 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
@@ -36,9 +37,14 @@ public class UserTest {
     private MockMvc mockMvc;
 
     @Before
-    public void setup() {
-        mockMvc = MockMvcBuilders.standaloneSetup(userAccCtrl).build();
+    public void setMockMvc() {
+        mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
     }
+
+//    @Before
+//    public void setup() {
+//        mockMvc = MockMvcBuilders.standaloneSetup(userAccCtrl).build();
+//    }
 
     @Before
     public void dbInit() {
@@ -49,16 +55,15 @@ public class UserTest {
         JdbcTestUtils.executeSqlScript(jdbcTemplate, resource, true);
         Resource resource2 = wac.getResource(initSql);
         JdbcTestUtils.executeSqlScript(jdbcTemplate, resource2, true);
-//        Resource resource3 = wac.getResource(insertSql);
-//        JdbcTestUtils.executeSqlScript(jdbcTemplate, resource3, true);
+        Resource resource3 = wac.getResource(insertSql);
+        JdbcTestUtils.executeSqlScript(jdbcTemplate, resource3, true);
 
     }
     @Test
     public void test() throws Exception {
-        ResultActions resultActions = this.mockMvc.perform(MockMvcRequestBuilders.post("/login").param("username", "jiang")
-                .param("password", "123456"));
+        ResultActions resultActions = this.mockMvc.perform(MockMvcRequestBuilders.post("/login").param("username", "xx")
+                .param("password", "e10adc3949ba59abbe56e057f20f883e")).andDo(MockMvcResultHandlers.print());
         MvcResult mvcResult = resultActions.andReturn();
-        String result = mvcResult.getResponse().getContentAsString();
-        System.out.println("result:" + result);
+        mvcResult.getResponse().getContentAsString();
     }
 }

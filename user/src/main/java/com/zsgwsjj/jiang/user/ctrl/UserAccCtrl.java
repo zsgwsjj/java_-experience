@@ -1,7 +1,6 @@
 package com.zsgwsjj.jiang.user.ctrl;
 
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
-import com.zsgwsjj.jiang.util.other.YaoException;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;
 import com.zsgwsjj.jiang.util.util.TimeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,11 +30,11 @@ public class UserAccCtrl {
                            @RequestParam("password") String password,
                            HttpServletRequest request) {
         String token;
-        try {
+//        try {
             token = userAccService.loginWithUserName(userName, password);
-        } catch (YaoException e) {
-            return ResponseUtil.geneCommonResponse(e);
-        }
+//        } catch (YaoException e) {
+//            return ResponseUtil.geneCommonResponse(e);
+//        }
         return ResponseUtil.geneCommonResponse("token", token);
     }
 
