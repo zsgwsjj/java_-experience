@@ -3,6 +3,8 @@ package com.zsgwsjj.jiang.comm.service.impl;
 import com.zsgwsjj.jiang.comm.dao.IUserAccDao;
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
 import com.zsgwsjj.jiang.user.ctrl.User;
+import com.zsgwsjj.jiang.util.enums.EnumUserError;
+import com.zsgwsjj.jiang.util.other.YaoException;
 import com.zsgwsjj.jiang.util.util.Md5Utils;
 import com.zsgwsjj.jiang.util.util.TimeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,13 +31,11 @@ public class UserAccService implements IUserAccService {
     @Override
     public String loginWithUserName(String userName, String password) {
         Optional<User> userOp = userAccDao.getUserByName(userName);
-//        userOp.orElseThrow(()->new Exception());
-        if (userName.equals(JIANG) || userName.equals(YAO)) {
-            if (password.equals("123456")) {
-                return geneToken(userName);
-            }
+        User user = userOp.orElseThrow(() -> new YaoException(EnumUserError.NO_USER));
+        if (!user.getPassword().equals(password)) {
+            throw new YaoException(EnumUserError.PASSWORD_ERROR);
         }
-        return userName;
+        return geneToken(userName);
     }
 
     private String geneToken(String userName) {

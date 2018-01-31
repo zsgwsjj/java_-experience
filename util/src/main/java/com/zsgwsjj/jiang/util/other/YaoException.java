@@ -1,5 +1,7 @@
 package com.zsgwsjj.jiang.util.other;
 
+import com.zsgwsjj.jiang.util.enums.IYaoError;
+
 /**
  * @author : jiang
  * @time : 2018/1/30 22:41
@@ -9,8 +11,8 @@ public class YaoException extends RuntimeException {
     private String errorCode;
     private String extraMessage;
 
-    public YaoException(String errorCode, String extraMessage) {
-        super("error code: " + errorCode + ",error desc: " + extraMessage);
+    public YaoException(IYaoError error) {
+        super("error code: " + error.getErrorCode() + ",error desc: " + error.getErrorMessage());
     }
 
     public String getErrorCode() {

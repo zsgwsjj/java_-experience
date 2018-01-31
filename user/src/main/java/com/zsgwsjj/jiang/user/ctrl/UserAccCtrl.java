@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.user.ctrl;
 
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
+import com.zsgwsjj.jiang.util.util.ResponseUtil;
 import com.zsgwsjj.jiang.util.util.TimeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,12 +26,10 @@ public class UserAccCtrl {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String register(@RequestParam("uid") int id,
-                           @RequestParam("username") String userName,
+    public String register(@RequestParam("username") String userName,
                            @RequestParam("password") String password,
                            HttpServletRequest request) {
-//        ResponseUtil.geneCommonResponse("token",)
-        return userAccService.loginWithUserName(userName, password);
+        return ResponseUtil.geneCommonResponse("token", userAccService.loginWithUserName(userName, password));
     }
 
     @RequestMapping(value = "/time", method = RequestMethod.GET)
