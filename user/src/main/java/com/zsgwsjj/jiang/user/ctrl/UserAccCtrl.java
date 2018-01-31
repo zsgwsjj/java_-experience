@@ -42,7 +42,7 @@ public class UserAccCtrl {
     @RequestMapping(value = "/time", method = RequestMethod.GET)
     public String getTime() {
         String haveTime = String.valueOf(1518431700 - TimeUtils.getCurrentUnixTimestamp());
-        return "距离下次见到瑶阿妹还剩:" + haveTime + "秒";
+        return ResponseUtil.geneCommonResponse("距离下次见到瑶阿妹还剩:" + haveTime + "秒");
     }
 }
 

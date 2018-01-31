@@ -13,6 +13,7 @@
     <!--mysql-->
     <bean id="jjDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <property name="DriverClassName" value="com.mysql.jdbc.Driver"/>
+        <!--<property name="dbType" value="mysql"/>-->
         <property name="url" value="${db.url}?useUnicode=true&amp;characterEncoding=utf8"/>
         <property name="username" value="${db.username}"/>
         <property name="password" value="${db.password}"/>
