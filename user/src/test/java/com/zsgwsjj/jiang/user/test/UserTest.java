@@ -22,7 +22,7 @@ public class UserTest extends BaseTest {
     private String url;
 
     @Test
-    public void test() throws Exception {
+    public void loginTest() throws Exception {
         url = "/login";
         params.clear();
         params.put("username", "xx");
@@ -31,7 +31,7 @@ public class UserTest extends BaseTest {
     }
 
     @Test
-    public void test2() throws Exception {
+    public void reportTwitterTest() throws Exception {
         url = "/twitter/report";
         params.clear();
         params.put("uid", 1);
