@@ -1,6 +1,5 @@
 package com.zsgwsjj.jiang.user.test;
 
-import com.zsgwsjj.jiang.user.UserAccCtrl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,8 +28,6 @@ import org.springframework.web.context.WebApplicationContext;
 public class UserTest {
 
     @Autowired
-    private UserAccCtrl userAccCtrl;
-    @Autowired
     private WebApplicationContext wac;
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -54,6 +51,7 @@ public class UserTest {
         JdbcTestUtils.executeSqlScript(jdbcTemplate, resource3, true);
 
     }
+
     @Test
     public void test() throws Exception {
         ResultActions resultActions = this.mockMvc.perform(MockMvcRequestBuilders.post("/login").param("username", "xx")

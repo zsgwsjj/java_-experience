@@ -34,6 +34,6 @@ public class ResponseUtil {
     }
 
     public static String geneCommonResponse(IYaoError e) {
-        return JSON.toJSONString("code:" + e.getErrorCode() + ",reason:" + e.getErrorMessage());
+        return JSON.toJSONString("{code:" + e.getErrorCode() + ",reason:" + e.getErrorMessage() + "}");
     }
 }

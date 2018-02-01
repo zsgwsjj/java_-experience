@@ -18,12 +18,8 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 public class UserAccCtrl {
 
-    private IUserAccService userAccService;
-
     @Autowired
-    public UserAccCtrl(IUserAccService userAccService) {
-        this.userAccService = userAccService;
-    }
+    private  IUserAccService userAccService;
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String register(@RequestParam("username") String userName,

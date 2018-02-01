@@ -4,6 +4,7 @@ import com.zsgwsjj.jiang.comm.dao.ITwitterDao;
 import com.zsgwsjj.jiang.comm.service.ITwitterService;
 import com.zsgwsjj.jiang.model.Twitter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -11,14 +12,11 @@ import java.util.List;
  * @author : jiang
  * @time : 2018/1/31 19:23
  */
+@Service("twitterService")
 public class TwitterService implements ITwitterService {
 
-    private ITwitterDao twitterDao;
-
     @Autowired
-    public TwitterService(ITwitterDao twitterDao) {
-        this.twitterDao = twitterDao;
-    }
+    private  ITwitterDao twitterDao;
 
     @Override
     public void reportNewTwitter(Twitter twitter) {

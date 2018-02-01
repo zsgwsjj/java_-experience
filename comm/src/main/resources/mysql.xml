@@ -37,4 +37,6 @@
     <bean id="jjTxManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="jjDataSource"/>
     </bean>
+
+
 </beans>

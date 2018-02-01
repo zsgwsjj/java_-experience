@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.comm.dao;
 
 import com.zsgwsjj.jiang.model.Twitter;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,5 +13,5 @@ public interface ITwitterDao {
 
     void insertNewTwitter(Twitter twitter);
 
-    List<Twitter> queryTwitters(int uid, long startTime, long endTime);
+    List<Twitter> queryTwitters(@Param("id") int uid, @Param("start_time") long startTime, @Param("end_time") long endTime);
 }

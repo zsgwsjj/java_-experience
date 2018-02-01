@@ -12,6 +12,9 @@ public class User {
     private long createTime;
     private long updateTime;
 
+    public User() {
+    }
+
     public User(int id, String userName, String password, long createTime, long updateTime) {
         this.id = id;
         this.userName = userName;
@@ -63,5 +66,16 @@ public class User {
     public User setUpdateTime(long updateTime) {
         this.updateTime = updateTime;
         return this;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                '}';
     }
 }

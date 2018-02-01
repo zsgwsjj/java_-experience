@@ -1,6 +1,6 @@
 package com.zsgwsjj.jiang.user;
 
-import com.zsgwsjj.jiang.comm.service.impl.TwitterService;
+import com.zsgwsjj.jiang.comm.service.ITwitterService;
 import com.zsgwsjj.jiang.model.Twitter;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;
 import com.zsgwsjj.jiang.util.util.TimeUtils;
@@ -20,12 +20,8 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/twitter")
 public class TwitterAccCtrl {
 
-    private TwitterService twitterService;
-
     @Autowired
-    public TwitterAccCtrl(TwitterService twitterService) {
-        this.twitterService = twitterService;
-    }
+    private ITwitterService twitterService;
 
     @RequestMapping(value = "/report", method = RequestMethod.POST)
     public String report(@RequestParam("uid") int uid,

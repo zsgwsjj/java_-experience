@@ -20,6 +20,10 @@ public class Twitter {
         this.updateTime = updateTime;
     }
 
+    public Twitter() {
+
+    }
+
     public int getId() {
         return id;
     }

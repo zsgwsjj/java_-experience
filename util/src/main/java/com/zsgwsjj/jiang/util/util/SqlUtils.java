@@ -19,4 +19,9 @@ public class SqlUtils {
             return Optional.empty();
         }
     }
+
+    public static <T> Optional<T> getObjectOp(T object) {
+        return Optional.ofNullable(object);
+    }
 }
+

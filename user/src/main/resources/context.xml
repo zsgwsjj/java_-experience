@@ -7,10 +7,11 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <context:annotation-config/>
-    <import resource="classpath:ctrl.xml"/>
     <import resource="classpath*:mvc.xml"/>
+    <import resource="classpath:ds.xml"/>
     <aop:aspectj-autoproxy/>
     <bean id="logPrinter" class="com.zsgwsjj.jiang.util.other.LogPrinter"/>
     <bean id="exHandler" class="com.zsgwsjj.jiang.util.other.ExHandler"/>
 
+    <context:component-scan base-package="com.zsgwsjj.jiang"/>
 </beans>
