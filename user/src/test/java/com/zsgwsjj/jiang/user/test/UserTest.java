@@ -6,10 +6,8 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
-import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.test.web.servlet.ResultActions;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
+
+import java.util.HashMap;
 
 /**
  * @author : jiang
@@ -20,22 +18,33 @@ import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 @ContextConfiguration(locations = {"classpath:context.xml"})
 public class UserTest extends BaseTest {
 
+    private HashMap<String, Object> params = new HashMap<>();
+    private String url;
+
     @Test
     public void test() throws Exception {
-        ResultActions resultActions = this.mockMvc.perform(MockMvcRequestBuilders.post("/login").param("username", "xx")
-                .param("password", "e10adc3949ba59abbe56e057f20f883e")).andDo(MockMvcResultHandlers.print());
-        MvcResult mvcResult = resultActions.andReturn();
-        mvcResult.getResponse().getContentAsString();
+        url = "/login";
+        params.clear();
+        params.put("username", "xx");
+        params.put("password", "e10adc3949ba59abbe56e057f20f883e");
+        this.baseTest(url, params);
     }
 
     @Test
     public void test2() throws Exception {
-        ResultActions resultActions = this.mockMvc.perform(MockMvcRequestBuilders.post("/twitter/report")
-                .param("uid", "1")
-                .param("content", "this is test"))
-                .andDo(MockMvcResultHandlers.print());
-        MvcResult mvcResult = resultActions.andReturn();
-        mvcResult.getResponse().getContentAsString();
+        url = "/twitter/report";
+        params.clear();
+        params.put("uid", 1);
+        params.put("content", "this is test");
+        this.baseTest(url, params);
     }
 
+    @Test
+    public void registTest() throws Exception {
+        url = "/regist";
+        params.clear();
+        params.put("username", "jiang");
+        params.put("password", "111111");
+        this.baseTest(url, params);
+    }
 }

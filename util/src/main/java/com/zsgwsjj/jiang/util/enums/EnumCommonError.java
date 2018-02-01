@@ -6,7 +6,7 @@ package com.zsgwsjj.jiang.util.enums;
  */
 public enum EnumCommonError implements IYaoError {
 
-    SERVER_ERROR(1, "unknown server error");
+    SERVER_ERROR(-1, "unknown server error");
 
     private Integer code;
     private String reason;

@@ -26,16 +26,31 @@ public class UserAccService implements IUserAccService {
 
     @Override
     public String loginWithUserName(String userName, String password) {
-        Optional<User> userOp = SqlUtils.getObjectOp(userAccDao.getUserByName(userName));
-        User user = userOp.orElseThrow(() -> new YaoException(EnumUserError.NO_USER));
-        if (!user.getPassword().equals(password)) {
+        if (!getUserByUserName(userName).getPassword().equals(password)) {
             throw new YaoException(EnumUserError.PASSWORD_ERROR);
         }
         return geneToken(userName);
     }
 
+    @Override
+    public void registByUserName(String userName, String password) {
+        long curUTS = TimeUtils.getCurrentUnixTimestamp();
+        Optional<User> userOp = SqlUtils.getObjectOp(userAccDao.getUserByName(userName));
+        if (userOp.isPresent()) {
+            throw new YaoException(EnumUserError.USERNAME_EXIST);
+        }
+        User user = new User();
+        user.setUserName(userName).setPassword(password).setCreateTime(curUTS).setUpdateTime(curUTS);
+        userAccDao.addNewUser(user);
+    }
+
     private String geneToken(String userName) {
         long curUTS = TimeUtils.getCurrentUnixTimestamp();
         return Md5Utils.MD5(userName + curUTS);
+    }
+
+    private User getUserByUserName(String userName) {
+        Optional<User> userOp = SqlUtils.getObjectOp(userAccDao.getUserByName(userName));
+        return userOp.orElseThrow(() -> new YaoException(EnumUserError.NO_USER));
     }
 }

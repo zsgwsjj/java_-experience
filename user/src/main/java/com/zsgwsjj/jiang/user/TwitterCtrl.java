@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @RestController
 @RequestMapping("/twitter")
-public class TwitterAccCtrl {
+public class TwitterCtrl {
 
     @Autowired
     private ITwitterService twitterService;

@@ -19,13 +19,21 @@ import javax.servlet.http.HttpServletRequest;
 public class UserAccCtrl {
 
     @Autowired
-    private  IUserAccService userAccService;
+    private IUserAccService userAccService;
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String register(@RequestParam("username") String userName,
-                           @RequestParam("password") String password,
-                           HttpServletRequest request) {
+    public String login(@RequestParam("username") String userName,
+                        @RequestParam("password") String password,
+                        HttpServletRequest request) {
         return ResponseUtil.geneCommonResponse("token", userAccService.loginWithUserName(userName, password));
+    }
+
+    @RequestMapping(value = "/regist", method = RequestMethod.POST)
+    public String regist(@RequestParam("username") String userName,
+                         @RequestParam("password") String password,
+                         HttpServletRequest request) {
+        userAccService.registByUserName(userName, password);
+        return ResponseUtil.geneSuccessResponse();
     }
 
     @RequestMapping(value = "/time", method = RequestMethod.GET)

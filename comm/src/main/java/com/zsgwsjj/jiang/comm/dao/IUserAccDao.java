@@ -9,4 +9,6 @@ import com.zsgwsjj.jiang.model.User;
 public interface IUserAccDao {
 
     User getUserByName(String userName);
+
+    void addNewUser(User user);
 }
