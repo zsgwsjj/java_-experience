@@ -1,22 +1,15 @@
 package com.zsgwsjj.jiang.user.test;
 
-import org.junit.Before;
+import com.zsgwsjj.jiang.util.base.BaseTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
-import org.springframework.test.jdbc.JdbcTestUtils;
-import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.context.WebApplicationContext;
 
 /**
  * @author : jiang
@@ -25,32 +18,7 @@ import org.springframework.web.context.WebApplicationContext;
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 @ContextConfiguration(locations = {"classpath:context.xml"})
-public class UserTest {
-
-    @Autowired
-    private WebApplicationContext wac;
-    @Autowired
-    private JdbcTemplate jdbcTemplate;
-    private MockMvc mockMvc;
-
-    @Before
-    public void setMockMvc() {
-        mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
-    }
-
-    @Before
-    public void dbInit() {
-        String createSql = "classpath:sql/create.sql";
-        String initSql = "classpath:sql/init.sql";
-        String insertSql = "classpath:sql/insert.sql";
-        Resource resource = wac.getResource(createSql);
-        JdbcTestUtils.executeSqlScript(jdbcTemplate, resource, true);
-        Resource resource2 = wac.getResource(initSql);
-        JdbcTestUtils.executeSqlScript(jdbcTemplate, resource2, true);
-        Resource resource3 = wac.getResource(insertSql);
-        JdbcTestUtils.executeSqlScript(jdbcTemplate, resource3, true);
-
-    }
+public class UserTest extends BaseTest {
 
     @Test
     public void test() throws Exception {
