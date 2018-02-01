@@ -6,5 +6,6 @@
     <import resource="classpath:ds.xml"/>
 
     <bean id="userAccDao" class="com.zsgwsjj.jiang.comm.dao.impl.UserAccDao"/>
+    <bean id="twitterDao" class="com.zsgwsjj.jiang.comm.dao.impl.TwitterDao"/>
 
 </beans>

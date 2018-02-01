@@ -6,5 +6,6 @@
     <import resource="classpath:dao.xml"/>
 
     <bean id="pushService" class="com.zsgwsjj.jiang.comm.service.impl.UserAccService"/>
+    <bean id="twitterService" class="com.zsgwsjj.jiang.comm.service.impl.TwitterService"/>
 
 </beans>

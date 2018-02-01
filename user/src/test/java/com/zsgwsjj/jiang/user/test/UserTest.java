@@ -1,6 +1,6 @@
 package com.zsgwsjj.jiang.user.test;
 
-import com.zsgwsjj.jiang.model.UserAccCtrl;
+import com.zsgwsjj.jiang.user.UserAccCtrl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -41,11 +41,6 @@ public class UserTest {
         mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
     }
 
-//    @Before
-//    public void setup() {
-//        mockMvc = MockMvcBuilders.standaloneSetup(userAccCtrl).build();
-//    }
-
     @Before
     public void dbInit() {
         String createSql = "classpath:sql/create.sql";
@@ -66,4 +61,15 @@ public class UserTest {
         MvcResult mvcResult = resultActions.andReturn();
         mvcResult.getResponse().getContentAsString();
     }
+
+    @Test
+    public void test2() throws Exception {
+        ResultActions resultActions = this.mockMvc.perform(MockMvcRequestBuilders.post("/twitter/report")
+                .param("uid", "1")
+                .param("content", "this is test"))
+                .andDo(MockMvcResultHandlers.print());
+        MvcResult mvcResult = resultActions.andReturn();
+        mvcResult.getResponse().getContentAsString();
+    }
+
 }

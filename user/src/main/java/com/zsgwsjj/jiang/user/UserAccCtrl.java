@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.model;
+package com.zsgwsjj.jiang.user;
 
 import com.zsgwsjj.jiang.comm.service.IUserAccService;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;

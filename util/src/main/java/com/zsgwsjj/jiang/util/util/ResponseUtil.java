@@ -12,6 +12,10 @@ import java.util.HashMap;
  */
 public class ResponseUtil {
 
+    public static String geneSuccessResponse() {
+        return "{\"code\":0,\"reason\":\"success\"}";
+    }
+
     public static String geneCommonResponse(String desc, Object result) {
         HashMap<String, Object> response = new HashMap<>();
         response.put(desc, result);
