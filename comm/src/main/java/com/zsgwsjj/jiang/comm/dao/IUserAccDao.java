@@ -10,5 +10,5 @@ public interface IUserAccDao {
 
     User getUserByName(String userName);
 
-    void addNewUser(User user);
+    int addNewUser(User user);
 }
