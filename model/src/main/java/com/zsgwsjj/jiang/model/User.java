@@ -1,9 +1,14 @@
 package com.zsgwsjj.jiang.model;
 
+import lombok.Data;
+import lombok.ToString;
+
 /**
  * @author : jiang
  * @time : 2018/1/30 17:19
  */
+@Data
+@ToString
 public class User {
 
     private int id;
@@ -23,59 +28,4 @@ public class User {
         this.updateTime = updateTime;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public User setId(int id) {
-        this.id = id;
-        return this;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public User setUserName(String userName) {
-        this.userName = userName;
-        return this;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public User setPassword(String password) {
-        this.password = password;
-        return this;
-    }
-
-    public long getCreateTime() {
-        return createTime;
-    }
-
-    public User setCreateTime(long createTime) {
-        this.createTime = createTime;
-        return this;
-    }
-
-    public long getUpdateTime() {
-        return updateTime;
-    }
-
-    public User setUpdateTime(long updateTime) {
-        this.updateTime = updateTime;
-        return this;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
-                '}';
-    }
 }
