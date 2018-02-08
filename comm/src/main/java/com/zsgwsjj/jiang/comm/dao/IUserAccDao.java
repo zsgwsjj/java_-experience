@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.comm.dao;
 
 import com.zsgwsjj.jiang.model.User;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author : jiang
@@ -11,4 +12,6 @@ public interface IUserAccDao {
     User getUserByName(String userName);
 
     int addNewUser(User user);
+
+    void updatePassword(@Param("userName") String userName, @Param("newPassword") String newPassword);
 }

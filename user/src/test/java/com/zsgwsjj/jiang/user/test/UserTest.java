@@ -46,5 +46,22 @@ public class UserTest extends BaseTest {
         params.put("username", "jiang");
         params.put("password", "111111");
         this.baseTest(url, params);
+
+    }
+
+    @Test
+    public void updatePw() throws Exception {
+        url = "/update_pw";
+        params.clear();
+        params.put("username", "jiang");
+        params.put("old_password", "111111");
+        params.put("new_password", "222222");
+        this.baseTest(url, params);
+    }
+
+    @Test
+    public void updatePwTest() throws Exception {
+        registTest();
+        updatePw();
     }
 }

@@ -26,9 +26,7 @@ public class UserAccService implements IUserAccService {
 
     @Override
     public String loginWithUserName(String userName, String password) {
-        if (!getUserByUserName(userName).getPassword().equals(password)) {
-            throw new YaoException(EnumUserError.PASSWORD_ERROR);
-        }
+        checkPassword(userName, password);
         return geneToken(userName);
     }
 
@@ -40,8 +38,23 @@ public class UserAccService implements IUserAccService {
             throw new YaoException(EnumUserError.USERNAME_EXIST);
         }
         User user = new User();
-        user.setUserName(userName).setPassword(password).setCreateTime(curUTS).setUpdateTime(curUTS);
+        user.setUserName(userName);
+        user.setPassword(password);
+        user.setCreateTime(curUTS);
+        user.setUpdateTime(curUTS);
         userAccDao.addNewUser(user);
+    }
+
+    @Override
+    public void updatePassword(String userName, String oldPassword, String newPassword) {
+        checkPassword(userName, oldPassword);
+        userAccDao.updatePassword(userName, newPassword);
+    }
+
+    private void checkPassword(String userName, String password) {
+        if (!getUserByUserName(userName).getPassword().equals(password)) {
+            throw new YaoException(EnumUserError.PASSWORD_ERROR);
+        }
     }
 
     private String geneToken(String userName) {

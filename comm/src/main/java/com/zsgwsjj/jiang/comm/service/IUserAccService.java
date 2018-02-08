@@ -8,4 +8,6 @@ public interface IUserAccService {
     String loginWithUserName(String userName, String password);
 
     void registByUserName(String userName,String password);
+
+    void updatePassword(String userName, String oldPassword, String newPassword);
 }
