@@ -34,7 +34,7 @@ public class UserTest extends BaseTest {
     public void reportTwitterTest() throws Exception {
         url = "/twitter/report";
         params.clear();
-        params.put("uid", 1);
+        params.put("uid", 10000001);
         params.put("content", "this is test");
         this.baseTest(url, params);
     }

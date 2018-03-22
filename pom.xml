@@ -13,6 +13,8 @@
         <module>comm</module>
         <module>util</module>
         <module>model</module>
+        <module>aop_test</module>
+        <!--<module>im_demo</module>-->
     </modules>
     <packaging>pom</packaging>
 
