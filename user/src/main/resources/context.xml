@@ -10,8 +10,10 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
     <context:annotation-config/>
-    <import resource="classpath*:mvc.xml"/>
+    <import resource="classpath:mvc.xml"/>
     <import resource="classpath:ds.xml"/>
+    <import resource="redis.xml"/>
+
     <aop:aspectj-autoproxy/>
     <bean id="logPrinter" class="com.zsgwsjj.jiang.util.other.LogPrinter"/>
     <bean id="exHandler" class="com.zsgwsjj.jiang.util.other.ExHandler"/>

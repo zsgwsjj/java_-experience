@@ -1,11 +1,16 @@
 package com.zsgwsjj.jiang.user.test;
 
+import com.alibaba.fastjson.JSONObject;
 import com.zsgwsjj.jiang.util.base.BaseTest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
+import redis.clients.jedis.Jedis;
 
 import java.util.HashMap;
 
@@ -20,6 +25,8 @@ public class UserTest extends BaseTest {
 
     private HashMap<String, Object> params = new HashMap<>();
     private String url;
+    @Autowired
+    private RedisCacheManager  redisCacheManager;
 
     @Test
     public void loginTest() throws Exception {
@@ -63,5 +70,24 @@ public class UserTest extends BaseTest {
     public void updatePwTest() throws Exception {
         registTest();
         updatePw();
+    }
+
+    @Cacheable("redisTest")
+    public String redisTest() throws Exception {
+        return "test";
+    }
+
+    @Test
+    public void testRedis () throws Exception {
+        Jedis jedis=new Jedis("localhost");
+        jedis.set("test3","江江");
+        System.out.println(jedis.get("test3"));
+        jedis.set("test4",jedis.get("test3"));
+    }
+
+    @Test
+    public void jsonTest(){
+        String jsonString = JSONObject.toJSONString("姜江");
+        System.out.println(jsonString);
     }
 }

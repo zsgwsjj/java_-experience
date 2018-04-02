@@ -7,7 +7,6 @@ com/zsgwsjj/jiang/util/enums/EnumUserError.class
 com/zsgwsjj/jiang/util/enums/IYaoError.class
 com/zsgwsjj/jiang/util/other/ExPatternParser$ExPatternConverter.class
 com/zsgwsjj/jiang/util/util/ResponseUtil.class
-com/zsgwsjj/jiang/util/util/RedisUtils.class
 com/zsgwsjj/jiang/util/other/ExPatternParser.class
 com/zsgwsjj/jiang/util/other/ExPatternLayout.class
 com/zsgwsjj/jiang/util/base/BaseTest.class
