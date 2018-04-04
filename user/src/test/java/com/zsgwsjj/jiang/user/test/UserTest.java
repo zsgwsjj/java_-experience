@@ -2,6 +2,8 @@ package com.zsgwsjj.jiang.user.test;
 
 import com.alibaba.fastjson.JSONObject;
 import com.zsgwsjj.jiang.util.base.BaseTest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +28,9 @@ public class UserTest extends BaseTest {
     private HashMap<String, Object> params = new HashMap<>();
     private String url;
     @Autowired
-    private RedisCacheManager  redisCacheManager;
+    private RedisCacheManager redisCacheManager;
+
+    private static final Logger LOGGER = LogManager.getLogger(UserTest.class);
 
     @Test
     public void loginTest() throws Exception {
@@ -44,6 +48,7 @@ public class UserTest extends BaseTest {
         params.put("uid", 10000001);
         params.put("content", "this is test");
         this.baseTest(url, params);
+        LOGGER.info("lalallala");
     }
 
     @Test
@@ -78,15 +83,15 @@ public class UserTest extends BaseTest {
     }
 
     @Test
-    public void testRedis () throws Exception {
-        Jedis jedis=new Jedis("localhost");
-        jedis.set("test3","江江");
+    public void testRedis() throws Exception {
+        Jedis jedis = new Jedis("localhost");
+        jedis.set("test3", "江江");
         System.out.println(jedis.get("test3"));
-        jedis.set("test4",jedis.get("test3"));
+        jedis.set("test4", jedis.get("test3"));
     }
 
     @Test
-    public void jsonTest(){
+    public void jsonTest() {
         String jsonString = JSONObject.toJSONString("姜江");
         System.out.println(jsonString);
     }

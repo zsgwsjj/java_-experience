@@ -9,11 +9,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <!--<module>user</module>-->
+        <module>user</module>
         <module>comm</module>
         <module>util</module>
         <module>model</module>
-        <module>servlet</module>
+        <!--<module>servlet</module>-->
         <!--<module>java_test</module>-->
         <!--<module>aop_test</module>-->
         <!--<module>html</module>-->

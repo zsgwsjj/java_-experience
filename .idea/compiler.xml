@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="comm" />
         <module name="model" />
-        <module name="servlet" />
+        <module name="user" />
         <module name="util" />
       </profile>
     </annotationProcessing>
