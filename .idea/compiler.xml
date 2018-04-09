@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comm" />
+        <module name="html" />
         <module name="model" />
         <module name="user" />
         <module name="util" />
@@ -23,6 +24,7 @@
       <module name="jiang" target="1.8" />
       <module name="model" target="1.8" />
       <module name="servlet" target="1.8" />
+      <module name="spider" target="1.8" />
       <module name="study" target="1.8" />
       <module name="Test" target="1.8" />
       <module name="user" target="1.8" />

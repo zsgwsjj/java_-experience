@@ -2,10 +2,14 @@
   <dictionary name="JiangJiang">
     <words>
       <w>attrs</w>
+      <w>auther</w>
       <w>cust</w>
       <w>gouye</w>
       <w>hdecr</w>
       <w>jsonp</w>
+      <w>pwds</w>
+      <w>tbody</w>
+      <w>tbodys</w>
       <w>uptest</w>
       <w>websocket</w>
       <w>websockets</w>
