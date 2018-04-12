@@ -1,4 +1,4 @@
-package spider1;
+package spider1.model;
 
 import java.util.Arrays;
 

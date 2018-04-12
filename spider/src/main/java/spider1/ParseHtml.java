@@ -8,6 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Test;
+import spider1.model.Item;
 
 import java.io.IOException;
 import java.util.ArrayList;
