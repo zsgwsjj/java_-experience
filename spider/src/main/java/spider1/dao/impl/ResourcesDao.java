@@ -21,6 +21,8 @@ public class ResourcesDao implements IResourcesDao {
             "last_reply_name,last_reply_time,last_reply_url,first_page_reply,is_need_reply,search_link_times,create_time ";
     private static final String INSERT = " INSERT INTO " + TABLE + "(" + ALL_COLUMNS + ") VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ";
 
+    private static final String CLEAN_UP = "";
+
     @Override
     public void insertRes(Item item) {
         jdbcTemplate.update(INSERT, item.getTitle(), item.getUrl(), item.getLinksAndPwdsStr(),
@@ -29,4 +31,10 @@ public class ResourcesDao implements IResourcesDao {
                 item.getLastReplyUrl(), item.getFirstPageReply(), item.isNeedReply(), item.getSearchLinkTimes(),
                 System.currentTimeMillis() / 1000);
     }
+
+    @Override
+    public void cleanUp() {
+
+    }
+
 }

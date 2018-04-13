@@ -25,9 +25,23 @@ public class SpiderCtrl {
     public String getBaiduPan(@RequestParam("username") String userName,
                               @RequestParam("password") String password,
                               HttpServletRequest request) {
-        if (userName.equals("jiang") && password.equals("123456")) {
-            getInfoService.getInfo();
-        }
+//        if (userName.equals("jiang") && password.equals("123456")) {
+        getInfoService.getInfo();
+//        }
         return ResponseUtil.geneSuccessResponse();
+    }
+
+//    @RequestMapping("/delete")
+//    public String dealWithSameTitle(@RequestParam("username") String userName,
+//                                    @RequestParam("password") String password,
+//                                    HttpServletRequest request) {
+//        if (userName.equals("jiang") && password.equals("123456")) {
+//            getInfoService.cleanUp();
+//        }
+//    }
+
+    @RequestMapping(value = "/check", method = RequestMethod.POST)
+    public String checkState() {
+        return null;
     }
 }

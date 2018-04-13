@@ -1,4 +1,4 @@
-package spider1;
+package spider1.service;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -25,14 +25,14 @@ public class ParseHtml {
     private boolean isFind = false;
 
     public List<Item> getCurrentPageItems(String html, String lastTitle) throws IOException {
-        ArrayList<Item> items = new ArrayList<Item>();
+        ArrayList<Item> items = new ArrayList<>();
         Document parse = Jsoup.parse(html);
         Element body = parse.body();
         Element element = body.select("div#forumnew").first();
         Element table = element.nextElementSibling();
         Elements tbodys = table.select("tbody");
-        for (int j = 0; j < tbodys.size(); j++) {
-            element = tbodys.get(j);
+        for (Element tbody1 : tbodys) {
+            element = tbody1;
             String title = element.select("a.xst").first().html();
             if (title.equals(lastTitle)) {
                 isFind = true;

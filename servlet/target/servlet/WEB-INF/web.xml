@@ -40,4 +40,8 @@
         <!-- 访问的网址 -->
         <url-pattern>/DisplayHeader</url-pattern>
     </servlet-mapping>
+    <filter>
+        <filter-name>LogFilter</filter-name>
+        <filter-class>LogFilter</filter-class>
+    </filter>
 </web-app>

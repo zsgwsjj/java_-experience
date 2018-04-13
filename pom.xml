@@ -14,8 +14,8 @@
         <module>util</module>
         <module>model</module>
         <module>spider</module>
-        <!--<module>servlet</module>-->
-        <!--<module>java_test</module>-->
+        <module>servlet</module>
+        <module>java_test</module>
         <!--<module>aop_test</module>-->
         <!--<module>html</module>-->
         <!--<module>im_demo</module>-->

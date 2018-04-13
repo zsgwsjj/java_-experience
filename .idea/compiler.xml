@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comm" />
+        <module name="java_test" />
         <module name="model" />
+        <module name="servlet" />
         <module name="spider" />
         <module name="util" />
       </profile>

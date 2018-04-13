@@ -10,4 +10,6 @@ public interface IResourcesDao {
 
 
     void insertRes(Item item);
+
+    void cleanUp();
 }

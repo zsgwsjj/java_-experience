@@ -1,13 +1,12 @@
 package spider1.service;
 
 import okhttp3.OkHttpClient;
-import okhttp3.Request;
 import okhttp3.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import spider1.ParseHtml;
 import spider1.dao.IResourcesDao;
 import spider1.model.Item;
+import spider1.util.HttpRequest;
 
 import java.util.List;
 
@@ -28,8 +27,8 @@ public class GetInfoService {
         try {
             OkHttpClient client = new OkHttpClient();
             for (int i = 1; i < 9; i++) {
-                Request request = new Request.Builder().url("https://www.52pojie.cn/forum.php?mod=guide&view=newthread&page=" + i).build();
-                Response response = client.newCall(request).execute();
+                String url = "https://www.52pojie.cn/forum.php?mod=guide&view=newthread&page=" + i;
+                Response response = HttpRequest.httpRequest(url);
                 System.out.println(response.toString());
                 if (response.isSuccessful()) {
                     String responseStr;
