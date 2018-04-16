@@ -14,7 +14,7 @@
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-        <property name="basePackage" value="com.zsgwsjj.jiang.comm.dao"/>
+        <property name="basePackage" value="com.zsgwsjj.jiang.user.dao"/>
     </bean>
 
     <bean id="logFilter" class="com.alibaba.druid.filter.logging.Slf4jLogFilter">

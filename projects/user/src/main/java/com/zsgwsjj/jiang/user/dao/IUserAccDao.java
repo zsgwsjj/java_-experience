@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.comm.dao;
+package com.zsgwsjj.jiang.user.dao;
 
 import com.zsgwsjj.jiang.model.User;
 import org.apache.ibatis.annotations.Param;

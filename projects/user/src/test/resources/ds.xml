@@ -3,18 +3,18 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
-    <import resource="classpath:test-mysql.xml"/>
+    <import resource="classpath*:test/test-mysql.xml"/>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="jjDataSource"/>
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="typeAliasesPackage" value="com.zsgwsjj.jiang"/>
-        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+        <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-        <property name="basePackage" value="com.zsgwsjj.jiang.comm.dao"/>
+        <property name="basePackage" value="com.zsgwsjj.jiang.user.dao"/>
     </bean>
 
     <bean id="logFilter" class="com.alibaba.druid.filter.logging.Slf4jLogFilter">

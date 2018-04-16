@@ -36,7 +36,7 @@ public class UserTest extends BaseTest {
     public void loginTest() throws Exception {
         url = "/login";
         params.clear();
-        params.put("username", "xx");
+        params.put("username", "yaoamei");
         params.put("password", "e10adc3949ba59abbe56e057f20f883e");
         this.baseTest(url, params);
     }

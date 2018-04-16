@@ -7,124 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2a5550-01c4-40b0-bfc2-26e84f95b2b7" name="Default" comment="init">
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/spider/src/main/resources/mapper/IResourceDaoMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/ITwitterService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/pom.xml" afterPath="$PROJECT_DIR$/projects/aop_test/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo1/HelloWorld.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo1/HelloWorld.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo1/HelloWorld1.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo1/HelloWorld1.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo1/HelloWorld2.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo1/HelloWorld2.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo1/LogHandler.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo1/LogHandler.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo1/Tester.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo1/Tester.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo1/TimeHandler.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo1/TimeHandler.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo2/AopTest.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo2/AopTest.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo2/MyInterceptor.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo2/MyInterceptor.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo2/PersonService.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo2/PersonService.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo2/PersonServiceImpl.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo2/PersonServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo2/TestMain.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo2/TestMain.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo3/AdviceManager.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo3/AdviceManager.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/java/demo3/AdviceTest.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/java/demo3/AdviceTest.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/resources/aop.xml" afterPath="$PROJECT_DIR$/projects/aop_test/target/classes/aop.xml" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/main/resources/demo2.xml" afterPath="$PROJECT_DIR$/projects/aop_test/target/classes/demo2.xml" />
-      <change beforePath="$PROJECT_DIR$/aop_test/src/test/java/AopTest.java" afterPath="$PROJECT_DIR$/projects/aop_test/src/test/java/AopTest.java" />
-      <change beforePath="$PROJECT_DIR$/aop_test/target/classes/aop.xml" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/resources/aop.xml" />
-      <change beforePath="$PROJECT_DIR$/aop_test/target/classes/demo2.xml" afterPath="$PROJECT_DIR$/projects/aop_test/src/main/resources/demo2.xml" />
-      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/ITwitterService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/IUserAccService.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/IUserAccService.java" />
-      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java" afterPath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java" />
-      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/TwitterService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/html/pom.xml" afterPath="$PROJECT_DIR$/projects/html/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/html/src/main/java/first.html" afterPath="$PROJECT_DIR$/projects/html/src/main/java/first.html" />
-      <change beforePath="$PROJECT_DIR$/html/src/main/java/js_1.html" afterPath="$PROJECT_DIR$/projects/html/src/main/java/js_1.html" />
-      <change beforePath="$PROJECT_DIR$/html/src/main/resources/1.jpg" afterPath="$PROJECT_DIR$/projects/html/src/main/resources/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/html/src/main/resources/myScript.js" afterPath="$PROJECT_DIR$/projects/html/src/main/resources/myScript.js" />
-      <change beforePath="$PROJECT_DIR$/im_demo/pom.xml" afterPath="$PROJECT_DIR$/projects/im_demo/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/client/Client.java" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/client/Client.java" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/SpringWebSocketConfig.java" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/SpringWebSocketConfig.java" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/SpringWebSocketHandler.java" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/SpringWebSocketHandler.java" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/SpringWebSocketHandlerInterceptor.java" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/SpringWebSocketHandlerInterceptor.java" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/WebSocketController.java" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/java/com/zsgwsjj/jiang/im_demo/server/WebSocketController.java" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/projects/im_demo/target/im_demo/WEB-INF/classes/context.xml" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/projects/im_demo/target/im_demo/WEB-INF/classes/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/im_demo/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/projects/im_demo/target/im_demo/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/classes/context.xml" afterPath="$PROJECT_DIR$/projects/im_demo/target/classes/context.xml" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/projects/im_demo/target/classes/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/im_demo/WEB-INF/classes/context.xml" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/resources/context.xml" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/im_demo/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/resources/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/im_demo/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/projects/im_demo/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/projects/im_demo/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/projects/im_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/projects/im_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/im_demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/projects/servlet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/java_test/pom.xml" afterPath="$PROJECT_DIR$/projects/java_test/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/GetProductRequest.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/GetProductRequest.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/HttpRequestCtrl.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/HttpRequestCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/HttpsRequestTest.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/HttpsRequestTest.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/TestStr.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/TestStr.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/reflect/A.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/reflect/A.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/reflect/Constructors.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Constructors.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Fields.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/reflect/Student.java" afterPath="$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Student.java" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/reflect/Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/test/java/ElasticsearchTest1.java" afterPath="$PROJECT_DIR$/projects/java_test/src/test/java/ElasticsearchTest1.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/comm/pom.xml" afterPath="$PROJECT_DIR$/comm/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/dao/ITwitterDao.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao/ITwitterDao.java" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/dao/IUserAccDao.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao/IUserAccDao.java" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/resources/test-mysql.xml" afterPath="$PROJECT_DIR$/comm/src/main/resources/test/test-mysql.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/servlet/pom.xml" afterPath="$PROJECT_DIR$/projects/servlet/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/DisplayHeader.java" afterPath="$PROJECT_DIR$/projects/servlet/src/main/java/DisplayHeader.java" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/HelloForm.java" afterPath="$PROJECT_DIR$/projects/servlet/src/main/java/HelloForm.java" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/HelloWorld.java" afterPath="$PROJECT_DIR$/projects/servlet/src/main/java/HelloWorld.java" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/LogFilter.java" afterPath="$PROJECT_DIR$/projects/servlet/src/main/java/LogFilter.java" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/projects/servlet/target/servlet/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/hello.html" afterPath="$PROJECT_DIR$/projects/servlet/target/servlet/hello.html" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/test.jsp" afterPath="$PROJECT_DIR$/projects/servlet/target/servlet/test.jsp" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/projects/servlet/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/projects/servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/projects/servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/projects/im_demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/projects/servlet/target/servlet/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/projects/servlet/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/hello.html" afterPath="$PROJECT_DIR$/projects/servlet/src/main/webapp/hello.html" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/test.jsp" afterPath="$PROJECT_DIR$/projects/servlet/src/main/webapp/test.jsp" />
-      <change beforePath="$PROJECT_DIR$/spider/pom.xml" afterPath="$PROJECT_DIR$/projects/spider/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/ctrl/SpiderCtrl.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/ctrl/SpiderCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/IResourcesDao.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/IResourcesDao.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/model/Item.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/model/Item.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/IGetInfoService.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/IGetInfoService.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/ISpiderService.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/ISpiderService.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/GetInfoService.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/GetInfoService.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/ParseHtml.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/ParseHtml.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/SpiderService.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/SpiderService.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/AuthFilter.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/AuthFilter.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/HttpRequest.java" afterPath="$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/HttpRequest.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/projects/spider/target/classes/context.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/resources/ds.xml" afterPath="$PROJECT_DIR$/projects/spider/target/classes/ds.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/resources/mapper/IResourceDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/spider/src/test/java/spider1/SpiderTest.java" afterPath="$PROJECT_DIR$/projects/spider/src/test/java/spider1/SpiderTest.java" />
-      <change beforePath="$PROJECT_DIR$/spider/target/classes/context.xml" afterPath="$PROJECT_DIR$/projects/spider/src/main/resources/context.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/target/classes/ds.xml" afterPath="$PROJECT_DIR$/projects/spider/src/main/resources/ds.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/target/classes/mapper/IResourceDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/log/test.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/logs/error.log" afterPath="$PROJECT_DIR$/projects/user/logs/error.log" />
-      <change beforePath="$PROJECT_DIR$/user/logs/web.log" afterPath="$PROJECT_DIR$/projects/user/logs/web.log" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" afterPath="$PROJECT_DIR$/projects/user/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/conf_dev/log4j.properties" afterPath="$PROJECT_DIR$/projects/user/target/classes/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user/TwitterCtrl.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/TwitterCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user/UserAccCtrl.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/UserAccCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/context.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/ds.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/ds.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/log4j2.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/mapper/ITwitterDao.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/mapper/ITwitterDao.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/mapper/IUserAccDao.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/mapper/IUserAccDao.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java" afterPath="$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/resources/ds.xml" afterPath="$PROJECT_DIR$/projects/user/src/test/resources/ds.xml" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/resources/sql/create.sql" afterPath="$PROJECT_DIR$/projects/user/src/test/resources/sql/create.sql" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/resources/sql/init.sql" afterPath="$PROJECT_DIR$/projects/user/src/test/resources/sql/init.sql" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/resources/sql/insert.sql" afterPath="$PROJECT_DIR$/projects/user/src/test/resources/sql/insert.sql" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/MybatisSqlGeneUtil.java" afterPath="$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/MybatisSqlGeneUtil.java" />
+      <change beforePath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java" />
+      <change beforePath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java" afterPath="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java" />
+      <change beforePath="$PROJECT_DIR$/projects/user/src/main/resources/ds.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/ds.xml" />
+      <change beforePath="$PROJECT_DIR$/projects/user/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/projects/user/src/main/resources/log4j2.xml" />
+      <change beforePath="$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java" afterPath="$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java" />
+      <change beforePath="$PROJECT_DIR$/projects/user/src/test/resources/ds.xml" afterPath="$PROJECT_DIR$/projects/user/src/test/resources/ds.xml" />
     </list>
     <ignored path="jiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -189,54 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwitterService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java">
+      <file leaf-file-name="UserAccService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding>
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserAccService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/IUserAccService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwitterCtrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/TwitterCtrl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAccCtrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/UserAccCtrl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="1080">
+              <caret line="65" column="69" lean-forward="false" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -245,8 +96,65 @@
       <file leaf-file-name="ds.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/ds.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="72" lean-forward="false" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            <state relative-caret-position="240">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ds.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/user/src/test/resources/ds.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ITwitterDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/mapper/ITwitterDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <marker date="1523846132000" expanded="true" signature="283:447" ph="INSERT INTO twitter" />
+                <marker date="1523846132000" expanded="true" signature="523:776" ph="SELECT id, u... twitter" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserAccDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/mapper/IUserAccDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <marker date="1523846132000" expanded="true" signature="321:387" ph="SELECT * FRO... user" />
+                <marker date="1523846132000" expanded="true" signature="510:648" ph="INSERT INTO `user`... " />
+                <marker date="1523846132000" expanded="true" signature="705:794" ph="UPDATE `user`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserAccDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao/IUserAccDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -274,6 +182,7 @@
     <findStrings>
       <find>alibaba</find>
       <find>aspect</find>
+      <find>h2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,19 +204,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/util/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/ParseHtml.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/ParseHtml.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/job/MainScheduler.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/job/MyJob.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/job/TaskJob.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e660bb6-bcff-4481-8b5f-45c9dcca7d20/console.sql" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/GetInfoService.java" />
-        <option value="$PROJECT_DIR$/html/src/main/java/jsp/HelloWorld.jsp" />
-        <option value="$PROJECT_DIR$/servlet/src/main/webapp/test.jsp" />
-        <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/Constructors.java" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/A.java" />
-        <option value="$PROJECT_DIR$/comm/pom.xml" />
         <option value="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/TestMain.java" />
         <option value="$PROJECT_DIR$/comm/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java" />
@@ -344,8 +241,20 @@
         <option value="$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/x.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java" />
         <option value="$PROJECT_DIR$/projects/user/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/projects/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/projects/user/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/comm/pom.xml" />
+        <option value="$PROJECT_DIR$/comm/src/main/resources/test/ds.xml" />
+        <option value="$PROJECT_DIR$/projects/user/src/test/ds.xml" />
+        <option value="$PROJECT_DIR$/projects/user/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao/IUserAccDao.java" />
+        <option value="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java" />
+        <option value="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java" />
+        <option value="$PROJECT_DIR$/projects/user/src/main/resources/ds.xml" />
+        <option value="$PROJECT_DIR$/projects/user/src/test/resources/ds.xml" />
       </list>
     </option>
   </component>
@@ -386,8 +295,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="312" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -453,7 +363,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -464,6 +375,48 @@
             <path>
               <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="conf_dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,6 +458,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
@@ -538,12 +502,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,11 +589,11 @@
       <recent name="com.zsgwsjj.jiang.comm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao" />
+      <recent name="$PROJECT_DIR$/projects/user/src/test" />
+      <recent name="$PROJECT_DIR$/comm/src/main/resources" />
       <recent name="$PROJECT_DIR$/spider/src/main/resources" />
       <recent name="$PROJECT_DIR$/spider/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/comm/src/main/conf_dev" />
-      <recent name="$PROJECT_DIR$/comm/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spider/src/main/java/conf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -584,11 +603,11 @@
       <recent name="com.zsgwsjj.jiang.comm.dao.impl.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/user/src/test/resources" />
+      <recent name="$PROJECT_DIR$/comm/src/main/resources/test" />
       <recent name="$PROJECT_DIR$/projects" />
       <recent name="$PROJECT_DIR$/spider/src/main" />
       <recent name="$PROJECT_DIR$/servlet/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/servlet/src/main/resources" />
-      <recent name="$PROJECT_DIR$/servlet/src/main" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -681,19 +700,6 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Fields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.Fields" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_test" />
-      <envs />
-    </configuration>
     <configuration name="MybatisSqlGeneUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zsgwsjj.jiang.util.util.MybatisSqlGeneUtil" />
       <option name="VM_PARAMETERS" />
@@ -765,6 +771,25 @@
       <option name="PACKAGE_NAME" value="com.zsgwsjj.jiang.user.test" />
       <option name="MAIN_CLASS_NAME" value="com.zsgwsjj.jiang.user.test.UserTest" />
       <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserTest.registTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zsgwsjj.jiang.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zsgwsjj.jiang.user.test.UserTest" />
+      <option name="METHOD_NAME" value="registTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1116,18 +1141,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SpiderTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fields" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MybatisSqlGeneUtil" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest.loginTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SpiderTest.test2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MybatisSqlGeneUtil" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.loginTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SpiderTest.test2" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserTest.registTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.loginTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpiderTest.test2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpiderTest.test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MybatisSqlGeneUtil" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Fields" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.registTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpiderTest.test2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SpiderTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MybatisSqlGeneUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -1183,7 +1208,9 @@
       <workItem from="1523844669913" duration="8916000" />
       <workItem from="1523860973857" duration="35000" />
       <workItem from="1523861044102" duration="297000" />
-      <workItem from="1523861384826" duration="1684000" />
+      <workItem from="1523861384826" duration="5814000" />
+      <workItem from="1523867711462" duration="2130000" />
+      <workItem from="1523886989113" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1517220534378</created>
@@ -1364,39 +1391,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_test - 2018.04.16 at 11h 10m 48s.xml">
-      <configuration name="SpiderTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test - 2018.04.16 at 11h 49m 15s.xml">
-      <configuration name="SpiderTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test - 2018.04.16 at 11h 50m 03s.xml">
-      <configuration name="SpiderTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test2 - 2018.04.16 at 14h 31m 32s.xml">
-      <configuration name="SpiderTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test2 - 2018.04.16 at 14h 33m 18s.xml">
-      <configuration name="SpiderTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test2 - 2018.04.16 at 14h 35m 38s.xml">
-      <configuration name="SpiderTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test2 - 2018.04.16 at 14h 35m 56s.xml">
-      <configuration name="SpiderTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test2 - 2018.04.16 at 14h 36m 41s.xml">
-      <configuration name="SpiderTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test2 - 2018.04.16 at 14h 39m 01s.xml">
-      <configuration name="SpiderTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_loginTest - 2018.04.16 at 14h 40m 27s.xml">
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 22m 41s.xml">
       <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 24m 52s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 27m 08s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 28m 12s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 29m 48s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 36m 14s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 38m 51s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 39m 42s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_loginTest - 2018.04.16 at 16h 57m 48s.xml">
+      <configuration name="UserTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_registTest - 2018.04.16 at 15h 36m 58s.xml">
+      <configuration name="UserTest.registTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333912000" />
+    <option name="totallyTimeSpent" value="340187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1408,7 +1435,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1416,19 +1443,19 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13578275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60431653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31678253" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41708043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33167824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33167824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19329074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28096676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18051118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2560423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4141013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1523,105 +1550,11 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/SpiderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/IGetInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/dao/ITwitterDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/ctrl/SpiderCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/job/TaskJob.java" />
-    <entry file="file://$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/ParseHtml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/TestMain.java" />
-    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/dao/IUserAccDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/ds.xml" />
-    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mysql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Fields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Constructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/java_test/src/main/java/reflect/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/java_test/src/main/java/reflect/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1629,31 +1562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/mapper/IUserAccDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/annotations/InsertProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1707,13 +1619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/mapper/ITwitterDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/spider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1749,14 +1654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comm/src/main/resources/redis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1766,81 +1663,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java" />
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/conf_dev/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/conf_dev/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/ITwitterService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.29/druid-1.0.29-sources.jar!/com/alibaba/druid/filter/logging/LogFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="387">
+          <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.29/druid-1.0.29-sources.jar!/com/alibaba/druid/filter/logging/Slf4jLogFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/pom.xml">
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/IUserAccService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/TwitterCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1849,38 +1704,204 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/IUserAccService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/zsgwsjj/jiang/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/conf_dev/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/TwitterCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/ds.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="287" column="40" lean-forward="false" selection-start-line="287" selection-start-column="40" selection-end-line="287" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mapper/ITwitterDao.xml" />
+    <entry file="file://$PROJECT_DIR$/comm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mysql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/38ee2c27/b02eb790-b1ba-434e-a4dd-28314f1954d2/jiang.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="280">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.29/druid-1.0.29-sources.jar!/com/alibaba/druid/filter/logging/LogFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.29/druid-1.0.29-sources.jar!/com/alibaba/druid/filter/logging/Slf4jLogFilter.java">
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/test/test-mysql.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/test/ds.xml" />
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao/ITwitterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/TwitterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/test/resources/ds.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/SqlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/service/impl/UserAccService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="65" column="69" lean-forward="false" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/java/com/zsgwsjj/jiang/user/dao/IUserAccDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/mapper/ITwitterDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1523846132000" expanded="true" signature="283:447" ph="INSERT INTO twitter" />
+            <marker date="1523846132000" expanded="true" signature="523:776" ph="SELECT id, u... twitter" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/mapper/IUserAccDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <marker date="1523846132000" expanded="true" signature="321:387" ph="SELECT * FRO... user" />
+            <marker date="1523846132000" expanded="true" signature="510:648" ph="INSERT INTO `user`... " />
+            <marker date="1523846132000" expanded="true" signature="705:794" ph="UPDATE `user`... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/user/src/main/resources/ds.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="72" lean-forward="false" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        <state relative-caret-position="240">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1951,7 +1972,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>user</last-edited>
+          <last-edited>projects</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

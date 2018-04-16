@@ -1,7 +1,7 @@
 package com.zsgwsjj.jiang.user.service.impl;
 
-import com.zsgwsjj.jiang.comm.dao.IUserAccDao;
 import com.zsgwsjj.jiang.model.User;
+import com.zsgwsjj.jiang.user.dao.IUserAccDao;
 import com.zsgwsjj.jiang.user.service.IUserAccService;
 import com.zsgwsjj.jiang.util.enums.EnumUserError;
 import com.zsgwsjj.jiang.util.other.YaoException;

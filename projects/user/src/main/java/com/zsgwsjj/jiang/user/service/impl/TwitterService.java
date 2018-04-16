@@ -1,7 +1,7 @@
 package com.zsgwsjj.jiang.user.service.impl;
 
-import com.zsgwsjj.jiang.comm.dao.ITwitterDao;
 import com.zsgwsjj.jiang.model.Twitter;
+import com.zsgwsjj.jiang.user.dao.ITwitterDao;
 import com.zsgwsjj.jiang.user.service.ITwitterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ import java.util.List;
 public class TwitterService implements ITwitterService {
 
     @Autowired
-    private  ITwitterDao twitterDao;
+    private ITwitterDao twitterDao;
 
     @Override
     public void reportNewTwitter(Twitter twitter) {
