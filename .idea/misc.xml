@@ -6,9 +6,10 @@
     </list>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/im_demo" />
-    <file type="web" url="file://$PROJECT_DIR$/servlet" />
-    <file type="web" url="file://$PROJECT_DIR$/user" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/im_demo" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/user" />
+    <type id="Spring" />
   </component>
   <component name="JsBowerSettings">
     <exe-path />

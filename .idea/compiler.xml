@@ -8,7 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="comm" />
         <module name="model" />
-        <module name="spider" />
+        <module name="projects" />
+        <module name="user" />
         <module name="util" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="java_test" target="1.8" />
       <module name="jiang" target="1.8" />
       <module name="model" target="1.8" />
+      <module name="projects" target="1.8" />
       <module name="servlet" target="1.8" />
       <module name="spider" target="1.8" />
       <module name="study" target="1.8" />

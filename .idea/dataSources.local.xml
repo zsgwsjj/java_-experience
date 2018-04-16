@@ -13,5 +13,15 @@
       <resolve-scope>:</resolve-scope>
       <unqualified-resolve-schemas>:</unqualified-resolve-schemas>
     </data-source>
+    <data-source name="@localhost" uuid="b02eb790-b1ba-434e-a4dd-28314f1954d2">
+      <database-info product="MySQL" version="5.7.11" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:app_server,jiang</introspection-schemas>
+    </data-source>
   </component>
 </project>

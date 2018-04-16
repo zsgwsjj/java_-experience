@@ -15,11 +15,12 @@ public class MybatisSqlGeneUtil {
         StringBuilder sb2 = new StringBuilder(" ( ");
         StringBuilder sb3 = new StringBuilder(" ( ");
         for (int i = 0; i < fields.length; i++) {
+            fields[i].setAccessible(true);
             sb2.append(fields[i].getName());
             if (i < fields.length - 1) {
                 sb2.append(",");
             }
-            sb3.append(" #{").append(fields[i].getName()).append("}");
+            sb3.append(fields[i].get(clazz.newInstance()));
             if (i < fields.length - 1) {
                 sb3.append(",");
             }

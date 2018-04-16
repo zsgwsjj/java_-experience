@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/comm/comm.iml" filepath="$PROJECT_DIR$/comm/comm.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiang.iml" filepath="$PROJECT_DIR$/jiang.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spider/spider.iml" filepath="$PROJECT_DIR$/spider/spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/projects.iml" filepath="$PROJECT_DIR$/projects/projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/user/user.iml" filepath="$PROJECT_DIR$/projects/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
     </modules>
   </component>
