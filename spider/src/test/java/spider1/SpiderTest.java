@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-import spider1.util.AuthFilter;
+import com.zsgwsjj.jiang.spider1.util.AuthFilter;
 
 import java.util.HashMap;
 import java.util.Map;

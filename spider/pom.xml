@@ -12,6 +12,11 @@
     <artifactId>spider</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.zsgwsjj.jiang</groupId>
+            <artifactId>comm</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <dependency>
             <groupId>org.jsoup</groupId>

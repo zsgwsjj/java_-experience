@@ -18,7 +18,7 @@ public class Fields {
         System.out.println("************获取所有的字段(包括私有、受保护、默认的)********************");
         fields = stuClass.getDeclaredFields();
         for (Field field : fields) {
-            System.out.println(field);
+            System.out.println(field.getName());
         }
         System.out.println("*************获取公有字段**并调用***********************************");
         Field field = stuClass.getField("name");

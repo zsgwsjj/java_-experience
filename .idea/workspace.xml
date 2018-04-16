@@ -7,26 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2a5550-01c4-40b0-bfc2-26e84f95b2b7" name="Default" comment=";">
-      <change beforePath="" afterPath="$PROJECT_DIR$/java_test/src/main/java/reflect/A.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java_test/src/main/java/reflect/Constructors.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java_test/src/main/java/reflect/Student.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java_test/src/main/java/reflect/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/servlet/src/main/webapp/test.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/job/TaskJob.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/service/ISpiderService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/service/impl/SpiderService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/util/HttpRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comm/src/main/resources/log4j2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/IGetInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/resources/ds.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spider/src/main/resources/mapper/IResourceDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/MybatisSqlGeneUtil.java" />
+      <change beforePath="$PROJECT_DIR$/comm/pom.xml" afterPath="$PROJECT_DIR$/comm/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/conf_dev/db.properties" afterPath="$PROJECT_DIR$/comm/src/main/conf_dev/db.properties" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java" afterPath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/TwitterService.java" afterPath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/TwitterService.java" />
+      <change beforePath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java" afterPath="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java" />
+      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java" afterPath="$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/spider/pom.xml" afterPath="$PROJECT_DIR$/spider/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/ParseHtml.java" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/service/ParseHtml.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/ctrl/SpiderCtrl.java" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/ctrl/SpiderCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/dao/IResourcesDao.java" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/dao/IResourcesDao.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/dao/impl/ResourcesDao.java" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/dao/impl/ResourcesDao.java" />
-      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/service/GetInfoService.java" afterPath="$PROJECT_DIR$/spider/src/main/java/spider1/service/GetInfoService.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/conf/db.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/ctrl/SpiderCtrl.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/ctrl/SpiderCtrl.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/dao/IResourcesDao.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/IResourcesDao.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/dao/impl/ResourcesDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/job/TaskJob.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/model/Item.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/model/Item.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/service/GetInfoService.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/GetInfoService.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/service/ISpiderService.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/ISpiderService.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/service/ParseHtml.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/ParseHtml.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/service/impl/SpiderService.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/SpiderService.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/AuthFilter.java" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/spider1/util/HttpRequest.java" afterPath="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/HttpRequest.java" />
       <change beforePath="$PROJECT_DIR$/spider/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/spider/src/main/resources/context.xml" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/resources/mysql.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/spider/src/test/java/spider1/SpiderTest.java" afterPath="$PROJECT_DIR$/spider/src/test/java/spider1/SpiderTest.java" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/context.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/ds.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/log4j2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/mapper/ITwitterDao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/mapper/IUserAccDao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/test-classes/ds.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/test-classes/sql/create.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/test-classes/sql/init.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/target/test-classes/sql/insert.sql" afterPath="" />
     </list>
     <ignored path="jiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,6 +90,24 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="jiang: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="jiang: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="resource_spider: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -83,27 +119,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpiderTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider/src/test/java/spider1/SpiderTest.java">
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/src/main/resources/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ds.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/src/main/resources/ds.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitterService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/TwitterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#0#860#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java">
+      <file leaf-file-name="UserAccService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="620">
+              <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisCacheConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,25 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/servlet/src/main/java/DisplayHeader.java" />
-        <option value="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/servlet/src/main/java/LogFilter.java" />
-        <option value="$PROJECT_DIR$/java_test/src/main/java/ElasticsearchTest1.java" />
-        <option value="$PROJECT_DIR$/java_test/pom.xml" />
-        <option value="$PROJECT_DIR$/java_test/src/test/java/ElasticsearchTest1.java" />
-        <option value="$PROJECT_DIR$/user/pom.xml" />
-        <option value="$PROJECT_DIR$/user/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/user/src/main/resources/log4j2.tld" />
-        <option value="$PROJECT_DIR$/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java" />
-        <option value="$PROJECT_DIR$/user/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/html/src/main/java/first.js" />
-        <option value="$PROJECT_DIR$/html/src/main/resources/myScript.js" />
-        <option value="$PROJECT_DIR$/java_test/src/main/java/GetProductRequest.java" />
-        <option value="$PROJECT_DIR$/java_test/src/main/java/HttpRequestCtrl.java" />
-        <option value="$PROJECT_DIR$/html/src/main/java/js_1.html" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/conf/db.properties" />
-        <option value="$PROJECT_DIR$/spider/src/main/conf/db.properties" />
-        <option value="$PROJECT_DIR$/spider/src/main/resources/mysql.xml" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/GetInfo.java" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/TestStr.java" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/HttpsRequestTest.java" />
@@ -178,7 +232,6 @@
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/IResourcesDao.java" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/Item.java" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/util/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/spider/pom.xml" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/ParseHtml.java" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/ParseHtml.java" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/job/MainScheduler.java" />
@@ -186,22 +239,42 @@
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/job/TaskJob.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e660bb6-bcff-4481-8b5f-45c9dcca7d20/console.sql" />
         <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/GetInfoService.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/ISpiderService.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/impl/SpiderService.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/dao/IResourcesDao.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/dao/impl/ResourcesDao.java" />
         <option value="$PROJECT_DIR$/html/src/main/java/jsp/HelloWorld.jsp" />
         <option value="$PROJECT_DIR$/servlet/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/Constructors.java" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/Student.java" />
-        <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/Test.java" />
         <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/A.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/resources/context.xml" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/ctrl/SpiderCtrl.java" />
         <option value="$PROJECT_DIR$/spider/src/test/java/spider1/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/comm/pom.xml" />
+        <option value="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/TestMain.java" />
+        <option value="$PROJECT_DIR$/comm/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/spider/pom.xml" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/ctrl/SpiderCtrl.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/ISpiderService.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/service/impl/SpiderService.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/dao/IResourcesDao.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/spider1/dao/impl/ResourcesDao.java" />
+        <option value="$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java" />
+        <option value="$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/MybatisSqlGeneUtil.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/impl/ResourcesDao.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/SpiderService.java" />
+        <option value="$PROJECT_DIR$/comm/src/main/resources/ds.xml" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/IGetInfoService.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/GetInfoService.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/ctrl/SpiderCtrl.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/ParseHtml.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/GetInfoService.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/IResourcesDao.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/spider/src/main/resources/mapper/IResourceDao.xml" />
+        <option value="$PROJECT_DIR$/spider/src/main/resources/ds.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/TwitterService.java" />
+        <option value="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java" />
+        <option value="$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java" />
       </list>
     </option>
   </component>
@@ -241,7 +314,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -309,6 +382,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,6 +432,27 @@
               <item name="comm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
+              <item name="comm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -364,8 +460,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,18 +479,18 @@
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spider/src/main" />
+      <recent name="$PROJECT_DIR$/servlet/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/servlet/src/main/resources" />
+      <recent name="$PROJECT_DIR$/servlet/src/main" />
+      <recent name="$PROJECT_DIR$/html/src/main/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.zsgwsjj.jiang.user.test" />
       <recent name="com.zsgwsjj.jiang.user" />
       <recent name="com.zsgwsjj.jiang.comm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spider/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spider/src/main/java/conf" />
-      <recent name="$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user" />
-      <recent name="$PROJECT_DIR$/user/src/main/resources" />
-      <recent name="$PROJECT_DIR$/im_demo/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -405,12 +499,12 @@
       <recent name="com.zsgwsjj.jiang.comm.service.impl" />
       <recent name="com.zsgwsjj.jiang.comm.dao.impl.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spider/src/main" />
-      <recent name="$PROJECT_DIR$/servlet/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/servlet/src/main/resources" />
-      <recent name="$PROJECT_DIR$/servlet/src/main" />
-      <recent name="$PROJECT_DIR$/html/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spider/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/comm/src/main/conf_dev" />
+      <recent name="$PROJECT_DIR$/comm/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spider/src/main/java/conf" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -503,19 +597,6 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.Constructors" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_test" />
-      <envs />
-    </configuration>
     <configuration name="Fields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflect.Fields" />
       <option name="VM_PARAMETERS" />
@@ -529,8 +610,8 @@
       <module name="java_test" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.Test" />
+    <configuration name="MybatisSqlGeneUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsgwsjj.jiang.util.util.MybatisSqlGeneUtil" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -539,7 +620,20 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_test" />
+      <module name="util" />
+      <envs />
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsgwsjj.jiang.comm.service.TestMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="comm" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -555,14 +649,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpiderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spider" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="spider1" />
       <option name="MAIN_CLASS_NAME" value="spider1.SpiderTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -574,13 +668,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SpiderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spider" />
+    <configuration name="UserTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="spider1" />
-      <option name="MAIN_CLASS_NAME" value="spider1.SpiderTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.zsgwsjj.jiang.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zsgwsjj.jiang.user.test.UserTest" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -932,18 +1026,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SpiderTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Constructors" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Fields" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SpiderTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Fields" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestMain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MybatisSqlGeneUtil" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserTest.loginTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.SpiderTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpiderTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.loginTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MybatisSqlGeneUtil" />
         <item index="3" class="java.lang.String" itemvalue="Application.Fields" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Constructors" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestMain" />
       </list>
     </recent_temporary>
   </component>
@@ -994,7 +1088,9 @@
       <workItem from="1522743320078" duration="16179000" />
       <workItem from="1523240579720" duration="21836000" />
       <workItem from="1523412677649" duration="14608000" />
-      <workItem from="1523515807834" duration="15880000" />
+      <workItem from="1523515807834" duration="28562000" />
+      <workItem from="1523721483867" duration="25000" />
+      <workItem from="1523844669913" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1517220534378</created>
@@ -1175,39 +1271,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest - 2018.04.13 at 14h 53m 18s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest - 2018.04.13 at 14h 57m 46s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest - 2018.04.13 at 14h 58m 17s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest - 2018.04.13 at 14h 58m 28s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest - 2018.04.13 at 14h 58m 56s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest - 2018.04.13 at 15h 00m 40s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_test - 2018.04.12 at 16h 20m 16s.xml">
+    <history-entry file="SpiderTest_test - 2018.04.13 at 18h 45m 25s.xml">
       <configuration name="SpiderTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_test - 2018.04.12 at 16h 24m 14s.xml">
+    <history-entry file="SpiderTest_test - 2018.04.13 at 18h 51m 38s.xml">
       <configuration name="SpiderTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_test - 2018.04.13 at 15h 02m 41s.xml">
+    <history-entry file="SpiderTest_test - 2018.04.13 at 18h 55m 10s.xml">
       <configuration name="SpiderTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_test - 2018.04.13 at 15h 08m 23s.xml">
+    <history-entry file="SpiderTest_test - 2018.04.13 at 18h 55m 39s.xml">
+      <configuration name="SpiderTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_test - 2018.04.13 at 19h 04m 36s.xml">
+      <configuration name="SpiderTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_test - 2018.04.13 at 19h 06m 40s.xml">
+      <configuration name="SpiderTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_test - 2018.04.13 at 19h 07m 34s.xml">
+      <configuration name="SpiderTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_test - 2018.04.13 at 19h 07m 59s.xml">
+      <configuration name="SpiderTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_test - 2018.04.13 at 19h 08m 29s.xml">
+      <configuration name="SpiderTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_test - 2018.04.13 at 19h 09m 03s.xml">
       <configuration name="SpiderTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310273000" />
+    <option name="totallyTimeSpent" value="323591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1219,34 +1315,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13578275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2879841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31678253" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4172662" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3319797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33167824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15654951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22736955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20447284" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18051118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4141013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4141013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1328,361 +1423,16 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/xml/bind/Marshaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="408" column="25" lean-forward="true" selection-start-line="408" selection-start-column="25" selection-end-line="408" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.29/druid-1.0.29-sources.jar!/com/alibaba/druid/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/main/java/js_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/main/resources/myScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/main/java/first.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/conf/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/HttpRequestCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/GetProductRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/TestStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/HttpsRequestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#3187#3188#0" expanded="false" />
-            <element signature="e#3284#3285#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/web/WEB-INF/web.xml" />
-    <entry file="das://src:table:/38ee2c27/2e660bb6-bcff-4481-8b5f-45c9dcca7d20/jiang.resource_spider">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/nodes/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/util/HttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/service/ParseHtml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/job/MainScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.4.RELEASE/spring-context-4.1.4.RELEASE.jar!/org/springframework/scheduling/config/spring-task-4.1.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="286" column="35" lean-forward="false" selection-start-line="286" selection-start-column="35" selection-end-line="286" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/resources/mysql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e660bb6-bcff-4481-8b5f-45c9dcca7d20/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/service/GetInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/job/TaskJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#290#291#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/service/ISpiderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/main/java/jsp/HelloWorld.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/38ee2c27/2e660bb6-bcff-4481-8b5f-45c9dcca7d20/jiang.resource_spider">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet/src/main/webapp/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/dao/impl/ResourcesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <marker date="1523531193000" expanded="true" signature="793:880" ph="INSERT INTO resource_spider... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/dao/IResourcesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/service/impl/SpiderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#123#124#0" expanded="false" />
-            <element signature="e#176#177#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="499" column="0" lean-forward="true" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#120#121#0" expanded="false" />
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#202#203#0" expanded="false" />
-            <element signature="e#251#252#0" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-            <element signature="e#455#456#0" expanded="false" />
-            <element signature="e#491#492#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#634#635#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/Constructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,7 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1698,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1714,34 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/resources/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/ctrl/SpiderCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding>
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1749,28 +1468,310 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.9.1/log4j-api-2.9.1.jar!/org/apache/logging/log4j/LogManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/spider1/util/AuthFilter.java">
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/util/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/conf_dev/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/Constructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/reflect/Fields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/impl/ResourcesDao.java" />
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/MybatisSqlGeneUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/com/zsgwsjj/jiang/util/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/ds.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/ISpiderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/mapper/ITwitterDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/test/java/com/zsgwsjj/jiang/user/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/test/resources/ds.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/SpiderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/ITwitterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/IGetInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/dao/ITwitterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user/TwitterCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/zsgwsjj/jiang/user/UserAccCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/ctrl/SpiderCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/job/TaskJob.java" />
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/ParseHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/TestMain.java" />
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/dao/IResourcesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/zsgwsjj/jiang/spider1/service/impl/GetInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/IUserAccService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/dao/IUserAccDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/src/test/java/spider1/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="420">
+          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/ds.xml" />
+    <entry file="file://$PROJECT_DIR$/spider/src/main/resources/mapper/IResourceDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/resources/mysql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/src/main/resources/ds.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/TwitterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#0#860#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/UserAccService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/src/main/java/com/zsgwsjj/jiang/comm/service/impl/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

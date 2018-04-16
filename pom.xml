@@ -14,8 +14,8 @@
         <module>util</module>
         <module>model</module>
         <module>spider</module>
-        <module>servlet</module>
-        <module>java_test</module>
+        <!--<module>servlet</module>-->
+        <!--<module>java_test</module>-->
         <!--<module>aop_test</module>-->
         <!--<module>html</module>-->
         <!--<module>im_demo</module>-->
@@ -25,7 +25,6 @@
     <properties>
         <org.springframework.version>4.1.4.RELEASE</org.springframework.version>
         <druid-version>1.0.29</druid-version>
-        <org.log4j.version>1.2.14</org.log4j.version>
         <version.jackson>2.7.3</version.jackson>
         <fastjson-version>1.2.31</fastjson-version>
     </properties>
@@ -112,11 +111,6 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>${druid-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${org.log4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
