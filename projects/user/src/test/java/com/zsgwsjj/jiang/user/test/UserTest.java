@@ -7,7 +7,6 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -77,10 +76,10 @@ public class UserTest extends BaseTest {
         updatePw();
     }
 
-    @Cacheable("redisTest")
-    public String redisTest() throws Exception {
-        return "test";
-    }
+//    @Cacheable("redisTest")
+//    public String redisTest() throws Exception {
+//        return "test";
+//    }
 
     @Test
     public void testRedis() throws Exception {
