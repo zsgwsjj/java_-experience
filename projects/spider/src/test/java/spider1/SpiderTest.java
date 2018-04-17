@@ -51,7 +51,7 @@ public class SpiderTest {
         params.put("username", "jiang");
         params.put("password", "123456");
         MockHttpServletRequestBuilder request;
-        request = MockMvcRequestBuilders.post("/spider/get");
+        request = MockMvcRequestBuilders.post("/spider/check");
         for (Map.Entry<String, Object> entry : params.entrySet()) {
             request = request.param(entry.getKey(), String.valueOf(entry.getValue()));
         }
@@ -60,8 +60,8 @@ public class SpiderTest {
         mvcResult.getResponse().getContentAsString();
         MvcResult mvcResult2 = resultActions.andReturn();
         mvcResult2.getResponse().getContentAsString();
-
     }
+
 
 }
 

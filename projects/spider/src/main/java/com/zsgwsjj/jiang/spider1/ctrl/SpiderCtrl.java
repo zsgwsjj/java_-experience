@@ -1,11 +1,13 @@
 package com.zsgwsjj.jiang.spider1.ctrl;
 
+import com.zsgwsjj.jiang.spider1.service.IGetInfoService;
+import com.zsgwsjj.jiang.spider1.service.ISpiderService;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.zsgwsjj.jiang.spider1.service.IGetInfoService;
+
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -18,8 +20,8 @@ public class SpiderCtrl {
 
     @Autowired
     private IGetInfoService getInfoService;
-//    @Autowired
-//    private ISpiderService spiderService;
+    @Autowired
+    private ISpiderService spiderService;
 
     @RequestMapping(value = "/get", method = RequestMethod.POST)
     public String getBaiduPan(HttpServletRequest request) {
@@ -27,18 +29,8 @@ public class SpiderCtrl {
         return ResponseUtil.geneSuccessResponse();
     }
 
-//    @RequestMapping("/delete")
-//    public String dealWithSameTitle(@RequestParam("username") String userName,
-//                                    @RequestParam("password") String password,
-//                                    HttpServletRequest request) {
-//        if (userName.equals("jiang") && password.equals("123456")) {
-//            getInfoService.cleanUp();
-//        }
-//    }
-
-//    @RequestMapping(value = "/check", method = RequestMethod.POST)
-//    public String checkState() {
-//        spiderService.checkLastOne();
-//        return null;
-//    }
+    @RequestMapping(value = "/check", method = RequestMethod.POST)
+    public String checkLastOne(HttpServletRequest request) {
+        return ResponseUtil.geneCommonResponse("item", spiderService.checkLastOne());
+    }
 }

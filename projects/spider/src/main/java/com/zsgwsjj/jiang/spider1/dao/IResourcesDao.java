@@ -2,6 +2,7 @@ package com.zsgwsjj.jiang.spider1.dao;
 
 
 import com.zsgwsjj.jiang.model.Item;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author : jiang
@@ -9,8 +10,11 @@ import com.zsgwsjj.jiang.model.Item;
  */
 public interface IResourcesDao {
 
-//    void insertRes(@Param("item") Item item);
+    void insertRes(@Param("item") Item item);
 
     Item selectRes();
 
+    void cleanUp();
+
+    Item getLastOne();
 }
