@@ -1,9 +1,8 @@
 package com.zsgwsjj.jiang.spider1.service.impl;
 
 import com.zsgwsjj.jiang.spider1.dao.IResourcesDao;
-import com.zsgwsjj.jiang.spider1.model.Item;
+import com.zsgwsjj.jiang.model.Item;
 import com.zsgwsjj.jiang.spider1.service.IGetInfoService;
-import com.zsgwsjj.jiang.spider1.util.HttpRequest;
 import com.zsgwsjj.jiang.util.util.MybatisSqlGeneUtil;
 import okhttp3.OkHttpClient;
 import okhttp3.Response;

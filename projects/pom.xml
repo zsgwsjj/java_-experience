@@ -10,10 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>projects</artifactId>
+    <packaging>pom</packaging>
 
     <modules>
-        <module>user</module>
-        <!--<module>spider</module>-->
+        <!--<module>user</module>-->
+        <module>spider</module>
         <!--<module>servlet</module>-->
         <!--<module>java_test</module>-->
         <!--<module>aop_test</module>-->

@@ -1,4 +1,4 @@
-package com.zsgwsjj.jiang.spider1.model;
+package com.zsgwsjj.jiang.model;
 
 import java.util.Arrays;
 

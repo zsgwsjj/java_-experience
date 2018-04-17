@@ -1,7 +1,7 @@
 package spider1;
 
 import com.zsgwsjj.jiang.spider1.dao.IResourcesDao;
-import com.zsgwsjj.jiang.spider1.util.AuthFilter;
+import com.zsgwsjj.jiang.util.filter.AuthFilter;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -63,10 +63,6 @@ public class SpiderTest {
 
     }
 
-    @Test
-    public void test2() {
-        System.out.println("test");
-        System.out.println(resourcesDao.selectRes().toString());
-    }
-
 }
+
+

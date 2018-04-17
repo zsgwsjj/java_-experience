@@ -1,12 +1,11 @@
 package com.zsgwsjj.jiang.spider1.ctrl;
 
-import com.zsgwsjj.jiang.spider1.service.IGetInfoService;
 import com.zsgwsjj.jiang.util.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
+import com.zsgwsjj.jiang.spider1.service.IGetInfoService;
 import javax.servlet.http.HttpServletRequest;
 
 /**

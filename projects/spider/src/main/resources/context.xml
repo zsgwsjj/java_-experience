@@ -10,8 +10,9 @@
     <context:annotation-config/>
     <import resource="classpath:mvc.xml"/>
     <import resource="classpath:ds.xml"/>
+    <import resource="classpath*:redis.xml"/>
 
-    <bean id="authFilter" class="com.zsgwsjj.jiang.spider1.util.AuthFilter"/>
+    <bean id="authFilter" class="com.zsgwsjj.jiang.util.filter.AuthFilter"/>
 
     <context:component-scan base-package="com.zsgwsjj.jiang"/>
 

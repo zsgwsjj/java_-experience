@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.spider1.dao;
 
-import com.zsgwsjj.jiang.spider1.model.Item;
+
+import com.zsgwsjj.jiang.model.Item;
 
 /**
  * @author : jiang

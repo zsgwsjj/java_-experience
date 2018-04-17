@@ -12,7 +12,7 @@
         <!--<result property="linksPwds" column="links_pwds" javaType="String"/>-->
     <!--</resultMap>-->
 
-    <select id="selectRes " resultType="com.zsgwsjj.jiang.spider1.model.Item">
+    <select id="selectRes " resultType="com.zsgwsjj.jiang.model.Item">
         SELECT * FROM resource_spider limit 1;
     </select>
 </mapper>
