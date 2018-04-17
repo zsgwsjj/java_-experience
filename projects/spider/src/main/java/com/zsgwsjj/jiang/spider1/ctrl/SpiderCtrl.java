@@ -31,6 +31,6 @@ public class SpiderCtrl {
 
     @RequestMapping(value = "/check", method = RequestMethod.POST)
     public String checkLastOne(HttpServletRequest request) {
-        return ResponseUtil.geneCommonResponse("item", spiderService.checkLastOne());
+        return ResponseUtil.geneSuccessResponse();
     }
 }

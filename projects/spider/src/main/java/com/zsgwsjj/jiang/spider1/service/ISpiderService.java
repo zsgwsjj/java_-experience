@@ -1,6 +1,6 @@
 package com.zsgwsjj.jiang.spider1.service;
 
-import com.zsgwsjj.jiang.model.Item;
+import java.io.IOException;
 
 /**
  * @author : jiang
@@ -9,5 +9,5 @@ import com.zsgwsjj.jiang.model.Item;
 public interface ISpiderService {
     void cleanUp();
 
-    Item checkLastOne();
+    void checkLastOne() throws IOException;
 }
