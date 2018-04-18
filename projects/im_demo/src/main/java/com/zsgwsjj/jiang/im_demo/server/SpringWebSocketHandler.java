@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.im_demo.server;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
@@ -16,7 +17,7 @@ import java.util.ArrayList;
 public class SpringWebSocketHandler extends TextWebSocketHandler {
 
     private static final ArrayList<WebSocketSession> users = new ArrayList<>();
-    private static Logger LOGGER = Logger.getLogger(SpringWebSocketHandler.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(SpringWebSocketHandler.class);
 
     public SpringWebSocketHandler() {
     }

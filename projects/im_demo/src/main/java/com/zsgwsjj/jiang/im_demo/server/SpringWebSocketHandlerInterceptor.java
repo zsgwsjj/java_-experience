@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.im_demo.server;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.http.server.ServletServerHttpRequest;
@@ -16,7 +17,7 @@ import java.util.Map;
  */
 public class SpringWebSocketHandlerInterceptor extends HttpSessionHandshakeInterceptor {
 
-    private static Logger LOGGER = Logger.getLogger(SpringWebSocketHandler.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(SpringWebSocketHandler.class);
 
     @Override
     public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler handler,

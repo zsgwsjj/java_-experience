@@ -1,6 +1,7 @@
 package com.zsgwsjj.jiang.im_demo.server;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +20,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class WebSocketController {
 
-    private static Logger LOGGER = Logger.getLogger(WebSocketController.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(WebSocketController.class);
 
     @Bean
     public SpringWebSocketHandler infoHandler() {
