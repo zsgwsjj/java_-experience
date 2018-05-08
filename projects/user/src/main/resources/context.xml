@@ -17,7 +17,7 @@
     <import resource="redis.xml"/>
 
     <aop:aspectj-autoproxy/>
-    <bean id="logPrinter" class="com.zsgwsjj.jiang.util.other.LogPrinter"/>
+    <bean id="logPrinter" class="com.zsgwsjj.jiang.util.other.LogPrinter" scope="prototype"/>
     <bean id="exHandler" class="com.zsgwsjj.jiang.util.other.ExHandler"/>
 
 </beans>
