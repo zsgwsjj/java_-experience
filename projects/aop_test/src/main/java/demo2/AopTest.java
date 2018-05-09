@@ -16,5 +16,5 @@ import java.lang.annotation.*;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public @interface AopTest {
 
-
+    String desc() default "";
 }

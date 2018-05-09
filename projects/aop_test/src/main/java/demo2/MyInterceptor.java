@@ -1,7 +1,8 @@
 package demo2;
 
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 
 /**
@@ -16,8 +17,10 @@ public class MyInterceptor {
 
     }
 
-    @Before("anyMethod()")
-    public void doAccessCheck() {
+    @Around(value = "anyMethod()&& @annotation(aopTest)", argNames = "point,aopTest")
+    public Object doAccessCheck(ProceedingJoinPoint point, AopTest aopTest) throws Throwable {
+        System.out.println(aopTest.desc());
         System.out.println("前置通知");
+        return point.proceed();
     }
 }

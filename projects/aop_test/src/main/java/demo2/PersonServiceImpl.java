@@ -6,7 +6,7 @@ package demo2;
  */
 public class PersonServiceImpl implements PersonService {
 
-    @AopTest
+    @AopTest(desc = "xxxx")
     @Override
     public void save(String name) {
         System.out.println("do save");
