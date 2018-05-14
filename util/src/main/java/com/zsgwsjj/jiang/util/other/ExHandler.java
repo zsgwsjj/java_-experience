@@ -28,7 +28,7 @@ public class ExHandler {
     @ResponseBody
     @ResponseStatus(HttpStatus.OK)
     private String exceptionHandler(Exception e, HttpServletRequest request) {
-        String result = null;
+        String result;
         if (e instanceof YaoException) {
             YaoException errorException = (YaoException) e;
             if (errorException.getErrorCode().getErrorCode().equals(EnumCommonError.SERVER_ERROR.getErrorCode())) {

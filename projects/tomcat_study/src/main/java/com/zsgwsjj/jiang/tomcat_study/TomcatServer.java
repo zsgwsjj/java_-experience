@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 /**
  * @author : jiang
- * @time : 2018/4/25 16:50
+ * @time : 2018/5/10 15:48
  */
 public class TomcatServer {
 
@@ -16,19 +16,19 @@ public class TomcatServer {
 
     public static void main(String[] args) {
         try {
-            ServerSocket serverSocket = new ServerSocket(PORT);
-            ServletHandler serverHandler = new ServletHandler(serverSocket);
+            ServerSocket server = new ServerSocket(PORT);
+            ServerHandler serverHandler = new ServerHandler(server);
             serverHandler.start();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public static class ServletHandler extends Thread {
-        ServerSocket serverSocket = null;
+    private static class ServerHandler extends Thread {
+        ServerSocket server = null;
 
-        public ServletHandler(ServerSocket serverSocket) {
-            this.serverSocket = serverSocket;
+        public ServerHandler(ServerSocket server) {
+            this.server = server;
         }
 
         @Override
@@ -36,48 +36,55 @@ public class TomcatServer {
             while (true) {
                 try {
                     Socket client = null;
-                    client = serverSocket.accept();
+                    client = server.accept();
                     if (client != null) {
-                        try {
-                            System.out.println("接收到一个客户端的请求！");
-                            BufferedReader reader = new BufferedReader(new InputStreamReader(client.getInputStream()));
-                            String line = reader.readLine();
-                            System.out.println("line: " + line);
-                            String resource = line.substring(line.indexOf('/'), line.lastIndexOf('/' - 5));
-                            System.out.println("the resource you request is: " + resource);
-                            resource = URLDecoder.decode(resource, "UTF-8");
-                            String method = new StringTokenizer(line).nextElement().toString();
+                        System.out.println("received a request from client!");
+                        BufferedReader reader = new BufferedReader(new InputStreamReader(client.getInputStream()));
+                        String line = reader.readLine();
+                        System.out.println("line: " + line);
 
-                            System.out.println("the request method you send is: " + method);
-                            while ((line = reader.readLine()) != null) {
-                                if (line.equals("")) {
-                                    break;
-                                }
-                                System.out.println("the Http Header is : " + line);
+                        String resource = line.substring(line.indexOf('/'), line.lastIndexOf('/') - 5);
+                        System.out.println("the resources you request is: " + resource);
+                        resource = URLDecoder.decode(resource, "UTF-8");
+
+                        String method = new StringTokenizer(line).nextElement().toString();
+                        System.out.println("the request method you send is: " + method);
+
+                        while ((line = reader.readLine()) != null) {
+                            if (line.equals("")) {
+                                break;
                             }
-                            if ("post".equals(method.toLowerCase())) {
-                                System.out.println("the post request body is: " + reader.readLine());
-                            } else if ("get".equals(method.toLowerCase())) {
-                                if (resource.endsWith(".jpg")) {
-                                    transferFileHandle("/Users/wangjia/Desktop/表情包/59cf01289a05e.jpg", client);
-                                    closeSocket(client);
-                                } else {
-                                    PrintStream writer = new PrintStream(client.getOutputStream(), true);
-                                    writer.println("HTTP/1.0 200 OK");
-                                    writer.println("Content-Type:text/html;charset=utf-8");
-                                    writer.println();
-                                    writer.println("<html><body>");
-                                    writer.println("<a href='www.baidu.com'>百度</a>");
-                                    writer.println("<img src='https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/" +
-                                            "logo/bd_logo1_31bdc765.png'></img>");
-                                    writer.println("</html></body>");
-                                    writer.println();
-                                    writer.close();
-                                    closeSocket(client);
-                                }
+                            System.out.println("the header is : " + line);
+                        }
+
+                        if (method.toLowerCase().equals("post")) {
+                            System.out.println("the post request body is: " + reader.readLine());
+                        } else if ("get".equals(method.toLowerCase())) {
+                            if (resource.endsWith(".jpg")) {
+                                transferFileHandle("d://123.jpg", client);
+                                closeSocket(client);
+                                continue;
+                            } else {
+                                PrintStream write = new PrintStream(client.getOutputStream(), true);
+                                write.println("HTTP/1.0 200 OK");
+                                write.println("Content-Type:text/html;charset=utf-8");
+                                write.println();
+                                write.println("<html><body>");
+                                write.println("<a href='www.baidu.com'>百度</a>");
+                                write.println("<img src='http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E7%99%BE%E5%" +
+                                        "BA%A6&step_word=&hs=0&pn=1&spn=0&di=120210580930&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&i" +
+                                        "e=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=1645649503%2C3446658575&os=2882650515%2C336198689" +
+                                        "3&simid=4205767217%2C676622381&adpicid=0&lpn=0&ln=1955&fr=&fmq=1525947747551_R&fm=&ic=undefined&s" +
+                                        "=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&" +
+                                        "oriquery=&objurl=http%3A%2F%2Fwww.swkweike.com%2Fdata%2Fuploads%2F2015%2F08%2F18%2F44760555255d2d" +
+                                        "bff72977.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bfohojthj_z%26e3Bv54AzdH3Fw6ptvsj-tgu5-dcb" +
+                                        "0_z%26e3Bip4s&gsm=0&rpstart=0&rpnum=0&islist=&querylist='></img>");
+                                write.println("</html></body>");
+                                write.println();
+                                write.close();
+                                closeSocket(client);
+                                continue;
                             }
-                        } catch (Exception e) {
-                            e.printStackTrace();
                         }
                     }
                 } catch (IOException e) {
@@ -92,31 +99,30 @@ public class TomcatServer {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println(socket + "离开了HTTP服务器");
+            System.out.println(socket + "离开了Http服务器");
         }
 
         private void transferFileHandle(String path, Socket client) {
+
             File fileToSend = new File(path);
             if (fileToSend.exists() && !fileToSend.isDirectory()) {
                 try {
                     PrintStream writer = new PrintStream(client.getOutputStream());
-                    writer.println("HTTP/1.0 200 OK");
+                    writer.println("Http/1.0 200 OK");
                     writer.println("Content-Type:application/binary");
                     writer.println("Content-Length:" + fileToSend.length());
                     writer.println();
 
-                    FileInputStream inputStream = new FileInputStream(fileToSend);
-                    byte[] buf = new byte[inputStream.available()];
-                    inputStream.read(buf);
-                    writer.write(buf);
+                    FileInputStream fis = new FileInputStream(fileToSend);
+                    byte[] bytes = new byte[fis.available()];
+                    fis.read(bytes);
+                    writer.write(bytes);
                     writer.close();
-                    inputStream.close();
+                    fis.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         }
-
     }
-
 }

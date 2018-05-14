@@ -36,12 +36,6 @@ public class UserAccCtrl {
         return ResponseUtil.geneSuccessResponse();
     }
 
-    @RequestMapping(value = "/time", method = RequestMethod.GET)
-    public String getTime() {
-        String haveTime = String.valueOf(1518431700 - TimeUtils.getCurrentUnixTimestamp());
-        return ResponseUtil.geneCommonResponse("距离下次见到瑶阿妹还剩:" + haveTime + "秒");
-    }
-
     @RequestMapping(value = "/update_pw", method = RequestMethod.POST)
     public String updatePassword(@RequestParam("username") String userName,
                                  @RequestParam("old_password") String oldPassword,
