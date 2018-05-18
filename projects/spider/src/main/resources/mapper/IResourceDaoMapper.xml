@@ -2,31 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zsgwsjj.jiang.spider1.dao.IResourcesDao">
-    <!--<insert id="insertRes">-->
-    <!--#{sql}-->
-    <!--</insert>-->
-    <!--<resultMap id="itemMap" type="Item">-->
-    <!--<id property="id" column="id" javaType="java.lang.Integer"/>-->
-    <!--<result property="title" column="title" javaType="String"/>-->
-    <!--<result property="url" column="url" javaType="String"/>-->
-    <!--<result property="linksPwds" column="links_pwds" javaType="String"/>-->
-    <!--</resultMap>-->
-
-    <select id="getLastOne" resultType="com.zsgwsjj.jiang.model.Item">
-        SELECT *
-        FROM resource_spider
-        WHERE status = 0 AND links_pwds IS NOT NULL
-        ORDER BY create_time DESC
-        LIMIT 1;
-    </select>
-
-    <!--<select id="getNewestOne" resultType="String">-->
-    <!--SELECT links_pwds-->
-    <!--FROM resource_spider-->
-    <!--WHERE status = 0 AND links_pwds IS NOT NULL-->
-    <!--ORDER BY create_time DESC-->
-    <!--LIMIT 1;-->
-    <!--</select>-->
 
     <resultMap id="CheckMap" type="java.util.HashMap">
         <id column="id" property="id" javaType="java.lang.String" jdbcType="INTEGER"/>
@@ -48,4 +23,12 @@
         SET status = 1
         WHERE id = #{id};
     </update>
+
+    <select id="getTest" resultType="com.zsgwsjj.jiang.model.Item">
+        SELECT
+            id,
+            title
+        FROM resource_spider
+        WHERE id = 101;
+    </select>
 </mapper>
