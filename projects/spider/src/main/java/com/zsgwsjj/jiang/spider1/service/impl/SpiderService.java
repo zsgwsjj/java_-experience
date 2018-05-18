@@ -1,6 +1,5 @@
 package com.zsgwsjj.jiang.spider1.service.impl;
 
-import com.zsgwsjj.jiang.model.Item;
 import com.zsgwsjj.jiang.spider1.dao.IResourcesDao;
 import com.zsgwsjj.jiang.spider1.service.ISpiderService;
 import okhttp3.Response;
@@ -10,6 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.StringTokenizer;
 
 /**
  * @author : jiang
@@ -30,15 +33,45 @@ public class SpiderService implements ISpiderService {
 
     @Override
     public void checkLastOne() throws IOException {
-        Item item = resourcesDao.getLastOne();
-        String[] links = item.getLinks();
+        List<Map<String, String>> checkList = resourcesDao.getNewestOne();
+        String linksAndPwds = null;
+        String id = null;
+        for (Map.Entry<String, String> entry : checkList.get(0).entrySet()) {
+            if (entry.getKey().equals("links")) {
+                linksAndPwds = entry.getValue();
+            }
+            if (entry.getKey().equals("id")) {
+                id = entry.getValue();
+            }
+        }
+        Map.Entry<String, String> entry = checkList.get(0).entrySet().iterator().next();
+        if (linksAndPwds==null){
+            return;
+        }
+        logger.info(linksAndPwds);
+        StringTokenizer stringTokenizer = new StringTokenizer(linksAndPwds, ";#");
+        List<String> links = new ArrayList<>();
+        while (stringTokenizer.hasMoreElements()) {
+            String s = stringTokenizer.nextToken();
+            if (isLink(s)) {
+                links.add(s);
+            }
+        }
         for (String link : links) {
             Response response = HttpRequest.httpRequest(link);
             if (response.isSuccessful()) {
                 String responseStr;
                 responseStr = response.body().string();
-                logger.info(responseStr);
+                if (!responseStr.contains("<title>百度网盘 请输入提取密码</title>")) {
+                    return;
+                }
             }
         }
+        resourcesDao.updateStatus(Integer.valueOf(id));
+        logger.info("the resource id :" + id + " has been resolved!");
+    }
+
+    private boolean isLink(String st) {
+        return st.startsWith("http");
     }
 }

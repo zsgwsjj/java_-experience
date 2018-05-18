@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 
 /**
  * @author : jiang
@@ -30,7 +31,8 @@ public class SpiderCtrl {
     }
 
     @RequestMapping(value = "/check", method = RequestMethod.POST)
-    public String checkLastOne(HttpServletRequest request) {
+    public String checkLastOne(HttpServletRequest request) throws IOException {
+        spiderService.checkLastOne();
         return ResponseUtil.geneSuccessResponse();
     }
 }

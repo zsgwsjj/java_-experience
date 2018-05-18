@@ -6,13 +6,46 @@
     <!--#{sql}-->
     <!--</insert>-->
     <!--<resultMap id="itemMap" type="Item">-->
-        <!--<id property="id" column="id" javaType="java.lang.Integer"/>-->
-        <!--<result property="title" column="title" javaType="String"/>-->
-        <!--<result property="url" column="url" javaType="String"/>-->
-        <!--<result property="linksPwds" column="links_pwds" javaType="String"/>-->
+    <!--<id property="id" column="id" javaType="java.lang.Integer"/>-->
+    <!--<result property="title" column="title" javaType="String"/>-->
+    <!--<result property="url" column="url" javaType="String"/>-->
+    <!--<result property="linksPwds" column="links_pwds" javaType="String"/>-->
     <!--</resultMap>-->
 
     <select id="getLastOne" resultType="com.zsgwsjj.jiang.model.Item">
-        SELECT * FROM resource_spider WHERE status=0 ORDER BY create_time DESC limit 1;
+        SELECT *
+        FROM resource_spider
+        WHERE status = 0 AND links_pwds IS NOT NULL
+        ORDER BY create_time DESC
+        LIMIT 1;
     </select>
+
+    <!--<select id="getNewestOne" resultType="String">-->
+    <!--SELECT links_pwds-->
+    <!--FROM resource_spider-->
+    <!--WHERE status = 0 AND links_pwds IS NOT NULL-->
+    <!--ORDER BY create_time DESC-->
+    <!--LIMIT 1;-->
+    <!--</select>-->
+
+    <resultMap id="CheckMap" type="java.util.HashMap">
+        <id column="id" property="id" javaType="java.lang.String" jdbcType="INTEGER"/>
+        <result column="links_pwds" property="links" javaType="java.lang.String" jdbcType="BLOB"/>
+    </resultMap>
+
+    <select id="getNewestOne" resultMap="CheckMap">
+        SELECT
+            id,
+            links_pwds
+        FROM resource_spider
+        WHERE status = 0 AND links_pwds IS NOT NULL
+        ORDER BY create_time
+        LIMIT 1;
+    </select>
+
+    <update id="updateStatus" parameterType="Integer">
+        UPDATE resource_spider
+        SET status = 1
+        WHERE id = #{id};
+    </update>
 </mapper>
