@@ -14,9 +14,9 @@
 
     <modules>
         <module>user</module>
-        <module>spider</module>
+        <!--<module>spider</module>-->
         <!--<module>servlet</module>-->
-        <!--<module>java_study</module>-->
+        <module>java_study</module>
         <!--<module>aop_test</module>-->
         <!--<module>html</module>-->
         <!--<module>tomcat_study</module>-->
