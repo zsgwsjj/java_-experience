@@ -11,14 +11,18 @@
     </insert>
     <select id="queryTwitters" resultType="Twitter">
         SELECT
-            id,
-            uid,
-            contene,
-            create_time,
-            update_time
+        id,
+        uid,
+        content,
+        create_time,
+        update_time
         FROM
-            `twitter`
+        `twitter`
         WHERE
-            uid = #{uid} AND create_time &gt;= #{start_time} AND create_time &lt;= #{end_time};
+        <if test="uid=10000001">
+            uid = #{uid}
+        </if>
+        AND create_time &gt;= #{start_time} AND create_time &lt;= #{end_time};
     </select>
+
 </mapper>

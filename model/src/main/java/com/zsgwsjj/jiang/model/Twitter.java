@@ -23,4 +23,6 @@ public class Twitter {
         this.updateTime = updateTime;
     }
 
+    public Twitter() {
+    }
 }
