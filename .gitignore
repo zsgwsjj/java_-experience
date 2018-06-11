@@ -1,6 +1,7 @@
 # Compiled class file
-
+*.
 # Log file
+._.DS_Store
 *.log
 
 # BlueJ files
